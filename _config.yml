@@ -2,8 +2,8 @@ title: Brandon's Page
 description: "Class of 2026"
 owner_name: Brandon Smurlo
 github_username: BrandonSmurlo
-github_repo: "student_2025" 
-baseurl: "/student_2025"
+github_repo: "studentcsp" 
+baseurl: "/studentcsp"
 future: true
 remote_theme: pages-themes/cayman@v0.2.0
 minima:
