@@ -49,3 +49,4 @@ While fishing is generally a safe activity, it’s important to keep a few safet
 
 Fishing in lakes can be a rewarding experience that offers the perfect blend of challenge and relaxation. Whether you're targeting bass, trout, or catfish, understanding the habits of fish, the right bait, and the best times to fish can make all the difference in having a successful day out on the water.
 
+![Smallmouth Bass](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Smallmouth_bass.png/800px-Smallmouth_bass.png)
