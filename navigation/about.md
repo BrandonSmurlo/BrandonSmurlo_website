@@ -4,13 +4,31 @@ title: About
 permalink: /about/
 ---
 
-- Name: Brandon Smurlo
-- Math is my favorite school subject
-- I have played varsity water polo all 3 years
-- I played quarterback for 8 years before highschool
-- I broke my front tooth this summer
-- I have no pets
-- I don't like to read books for fun
-- I always listen to music in the car
-- I am Albanian
+# About Me
+
+### Name: Brandon Smurlo
+
+---
+
+**Math is my favorite school subject.**
+
+I have always enjoyed solving complex problems and working with numbers. Math has been my go-to subject throughout school.
+
+---
+
+**Sports:**  
+- I’ve played **varsity water polo** for all 3 years of high school.
+- Before high school, I was a **quarterback** for 8 years.
+
+---
+
+**Fun Facts:**
+- I broke my front tooth this summer.
+- I don’t have any pets.
+- I don’t enjoy reading books for fun, but I always listen to music in the car.
+- I am **Albanian**.
+
+---
+
 ![Flag of Albania](https://cdn.britannica.com/00/6200-004-42B7690E/Flag-Albania.jpg)
+*Proud of my Albanian heritage.*

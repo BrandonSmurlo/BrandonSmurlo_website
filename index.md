@@ -49,28 +49,78 @@ hide: true
 </style>
 
 
-<div style="border: thin solid black">
-   <p style="color: black; margin-left: 300px">
-       Fun Button
-   </p>
-<button style="backround-color: white; border-color: black; color: black; margin-left: 300px">Button </button>
+<div class="section">
+   <p>Fun Button</p>
+   <button class="custom-button">Fun Button</button>
 </div>
 
-
-
-
-
-
-<div style="border: thin solid black">
-   <p style="color: black; margin-left: 300px">
-       Fishing Sites:
-   </p>
-   <a href="https://www.basspro.com/shop/en#">
-   <button style="backround-color: white; border-color: black; color: black; margin-left: 300px">BassPro </button>
-</a>
-
-
-<a href="https://www.basspro.com/l/casting-rods">
-<button style="backround-color: white; border-color: black; color: black; margin-left: 300px">Casting Rods </button>
-</a>
+<div class="section">
+   <p>Fishing Sites:</p>
+   <a href="https://www.basspro.com/shop/en#" style="text-decoration: none;">
+      <button class="custom-button">BassPro</button>
+   </a>
+   <a href="https://www.basspro.com/l/casting-rods" style="text-decoration: none;">
+      <button class="custom-button">Casting Rods</button>
+   </a>
 </div>
+
+<style>
+  .section {
+    border: thin solid black;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    width: 60%; /* Adjust this value for desired width */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+
+  .section p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
+  }
+
+  .custom-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .custom-button:hover {
+    background-color: black;
+    color: white;
+  }
+
+  a {
+    margin-left: 10px;
+  }
+</style>
+
+
+[![Mario walking](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4ddabef1-8390-424a-a828-f61e4df3d499/daraj8q-744f0563-d3f2-4a25-98a7-377abba7dc7b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRkZGFiZWYxLTgzOTAtNDI0YS1hODI4LWY2MWU0ZGYzZDQ5OVwvZGFyYWo4cS03NDRmMDU2My1kM2YyLTRhMjUtOThhNy0zNzdhYmJhN2RjN2IuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KpbFWvWcQbuGNwF9TtupLcDKwLRFW8DAZLx404K5bAU)](shhh.html)
+
+
+
+
+<style>
+ img {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 120px;
+   height: 120px;
+   animation: walk 10s linear infinite;
+ }
+ @keyframes walk {
+   from { transform: translateX(-100%); }
+   to { transform: translateX(100vw); }
+ }
+</style>
+
+

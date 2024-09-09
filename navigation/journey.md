@@ -1,41 +1,78 @@
 ---
-layout: blogs 
+layout: blogs
 title: Journey
 search_exclude: true
 permalink: /blogs/
 ---
 
-tools and setup
+# My Coding Journey
 
-# TERMINAL & FILE MANAGEMENT
-I used the Linux terminal to navigate and manage files. Commands like `cd` (change directory), `mkdir` (create folder), and `ls` (list files) were crutial for moving through and organizing my project files.
+## Tools and Setup
 
-# INSTALLING DEVELOPER TOOLS WITH UBUNTU LINUX
-Ubuntu’s `apt` package manager was used to install tools like Python and Ruby. Key commands used:  
-- `sudo apt update` – to update the package list  
-- `sudo apt install <package_name>` – to install necessary packages  
+---
 
-# SETTING UP PYTHON ENVIRONMENT
-After setting up Python, I created a virtual environment for my project using:  
-- `python3 -m venv venv` – sets up an isolated environment  
-- `source venv/bin/activate` – activates it  
-This keeps project dependencies organized and separate from global packages.
+### Terminal & File Management
+
+Using the **Linux terminal** was essential for navigating and managing my project files. Some of the key commands I used were:  
+- `cd` – change directory  
+- `mkdir` – create a folder  
+- `ls` – list files  
+
+These commands were crucial for keeping my project organized and efficient.
+
+---
+
+### Installing Developer Tools with Ubuntu Linux
+
+I installed necessary developer tools using Ubuntu's **apt** package manager. Key commands I used include:  
+- `sudo apt update` – updates the package list  
+- `sudo apt install <package_name>` – installs specific tools like Python and Ruby
+
+---
+
+### Setting Up Python Environment
+
+To keep my project dependencies organized, I set up a **virtual environment** for Python:  
+- `python3 -m venv venv` – creates an isolated environment  
+- `source venv/bin/activate` – activates the environment
+
+This helped me keep my project dependencies separate from the system's global packages.
+
+---
 
 ![Ubuntu Image](https://ubuntu.com/wp-content/uploads/a9c1/Screenshot-from-2022-04-18-13-05-17-min.png)
 
-# INSTALLING PYTHON PACKAGES
-With the virtual environment active, I used `pip` to install required packages:  
-- `pip install -r requirements.txt` – installs everything from my project’s requirements file.
+---
 
-# RUBY AND JEKYLL SETUP
-To run Jekyll (for GitHub Pages), I installed Ruby gems:  
-- `bundle install` – grabs the necessary Ruby packages.  
-This sets up my local Jekyll environment for creating the website.
+### Installing Python Packages
 
-# LAUNCHING THE LOCAL SERVER
-I ran the local server with the command `make`. This let me view my website at `http://127.0.0.1:4000`, making it easy to check updates before pushing them live.
+With the virtual environment active, I used `pip` to install the necessary packages for my project:  
+- `pip install -r requirements.txt` – installs everything listed in the requirements file
 
-# SYNCING WITH GITHUB
-After changes are made, I saved and committed them to Git:  
-- `git commit -m "insert message"`  
-I pushed my commits with `git push` to update the remote repository. GitHub Pages will automatically rebuild the site with my changes.
+---
+
+### Ruby and Jekyll Setup
+
+To run **Jekyll** for GitHub Pages, I installed the required **Ruby gems** using:  
+- `bundle install` – installs the necessary Ruby packages  
+This set up my local environment for creating and testing the website.
+
+---
+
+### Launching the Local Server
+
+I used the command `make` to run the local server, allowing me to preview my website at `http://127.0.0.1:4000`. This was crucial for testing changes before pushing them live.
+
+---
+
+### Syncing with GitHub
+
+After making updates, I saved my changes using Git:  
+- `git commit -m "insert message"` – commits my changes  
+- `git push` – pushes the changes to the remote repository
+
+GitHub Pages then automatically rebuilds the site with the new changes.
+
+---
+
+This journey has helped me understand the importance of organization and attention to detail in coding projects.

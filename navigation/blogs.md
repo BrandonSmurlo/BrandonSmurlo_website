@@ -1,8 +1,8 @@
 ---
-layout: blogs 
+layout: base 
 title: Fishing Blog
 search_exclude: true
-permalink: /blogs/
+
 ---
 Fishing is a peaceful escape from busy work life and provides the chance to catch a variety of fish species. Whether you're a seasoned professional or a rookie, it is beneficial to learn the very basics of fishing.
 
