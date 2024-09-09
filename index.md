@@ -5,10 +5,21 @@ description: Home Page
 hide: true
 ---
 
+<div class="header" style="text-align: center; padding: 20px; background-color: #f0f8ff; border-radius: 12px;">
+   <h1 style="color: #4B0082; font-family: 'Poppins', sans-serif; font-size: 48px; letter-spacing: 2px; text-shadow: 2px 2px #8A2BE2;">
+      Brandon Smurlo
+   </h1>
+   <h2 style="color: #8A2BE2; font-family: 'Poppins', sans-serif; font-size: 32px; letter-spacing: 1.5px; text-shadow: 1px 1px #4B0082;">
+      Home Page
+   </h2>
+</div>
+
+
+
 <div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
    <div style="text-align: center;">
       <a href="notebook1" style="text-decoration: none;">
-         <button style="background-color: #4CAF50; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+         <button class="animated-button" style="background-color: #4CAF50; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
             notebook 1
          </button>
       </a>
@@ -16,7 +27,7 @@ hide: true
 
    <div style="text-align: center;">
       <a href="notebook2" style="text-decoration: none;">
-         <button style="background-color: #2196F3; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+         <button class="animated-button" style="background-color: #2196F3; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
             notebook 2
          </button>
       </a>
@@ -24,12 +35,24 @@ hide: true
 
    <div style="text-align: center;">
       <a href="notebook3" style="text-decoration: none;">
-         <button style="background-color: #f44336; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+         <button class="animated-button" style="background-color: #f44336; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
             notebook 3
          </button>
       </a>
    </div>
 </div>
+
+<style>
+   .animated-button {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+   }
+
+   .animated-button:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+   }
+</style>
+
 
 
 
