@@ -166,3 +166,10 @@ hide: true
       </button>
    </a>
 </div>
+
+
+ <a href="emojis" style="text-decoration: none;">
+    <button class="animated-button" style="background-color: #FFC0CB; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+        Emojis
+    </button>
+</a>
