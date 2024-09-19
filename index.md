@@ -173,3 +173,10 @@ hide: true
         Emojis
     </button>
 </a>
+
+
+<a href="Interactive Map" style="text-decoration: none;">
+    <button class="animated-button" style="background-color: #FFA500; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+        Interactive Map
+    </button>
+</a>
