@@ -1,5 +1,5 @@
 ---
-layout: blogs
+layout: page
 title: Calculator
 search_exclude: true
 permalink: /calculator/
