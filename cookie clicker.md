@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cookie Clicker
+title: Cool Game
 search_exclude: true
 permalink: /cookie clicker/
 ---
@@ -9,7 +9,7 @@ permalink: /cookie clicker/
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Cookie Clicker Game</title>
+   <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
    <style>
        body {
            display: flex;
@@ -20,16 +20,20 @@ permalink: /cookie clicker/
            font-family: Arial, sans-serif;
            height: 100vh;
            margin: 0;
+           padding-top: 120px; /* Increased padding for more space for the navigation bar */
        }
 
        h1 {
+           font-family: 'Cookie', cursive;
            color: #964B00;
+           font-size: 3rem;
+           margin: 0;
        }
 
        #gameContainer {
            position: relative;
            text-align: center;
-           margin-top: 50px;
+           margin-top: 50px; /* Reduced margin for better spacing */
        }
 
        #cookie {
@@ -196,5 +200,3 @@ permalink: /cookie clicker/
 
 </body>
 </html>
-
-

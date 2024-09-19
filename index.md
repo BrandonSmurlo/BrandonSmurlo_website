@@ -148,28 +148,21 @@ hide: true
 
 
 <div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
-   <div style="text-align: center;">
-      <a href="calculator" style="text-decoration: none;">
-         <button class="animated-button" style="background-color: #000080; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
-            Calculator
-         </button>
-      </a>
-   </div>
+   <a href="calculator" style="text-decoration: none;">
+      <button class="animated-button" style="background-color: #000080; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+         Calculator
+      </button>
+   </a>
 
-   <div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
-   <div style="text-align: center;">
-      <a href="snake game" style="text-decoration: none;">
-         <button class="animated-button" style="background-color: #800080; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
-            Snake Game
-         </button>
-      </a>
-   </div>
+   <a href="snake game" style="text-decoration: none;">
+      <button class="animated-button" style="background-color: #800080; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+         Snake Game
+      </button>
+   </a>
 
-   <div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
-   <div style="text-align: center;">
-      <a href="cookie clicker" style="text-decoration: none;">
-         <button class="animated-button" style="background-color: #800080; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
-            Cookie Clicker
-         </button>
-      </a>
-   </div>
+   <a href="cookie clicker" style="text-decoration: none;">
+      <button class="animated-button" style="background-color: #964B00; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+         Cookie Clicker
+      </button>
+   </a>
+</div>
