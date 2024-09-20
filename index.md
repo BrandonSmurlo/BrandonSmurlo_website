@@ -180,3 +180,9 @@ hide: true
         Interactive Map
     </button>
 </a>
+
+<a href="Recipe Maker" style="text-decoration: none;">
+    <button class="animated-button" style="background-color: #3c9dd0; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+        Recipe Maker
+    </button>
+</a>
