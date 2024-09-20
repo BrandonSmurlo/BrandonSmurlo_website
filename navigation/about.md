@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: post
 title: About
 permalink: /about/
-Comments: true
+toc: True
+comments: true
 ---
 
 # About Me
