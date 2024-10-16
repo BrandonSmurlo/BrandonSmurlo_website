@@ -53,6 +53,7 @@ My group presented on Topic 3.10, covering how to edit, alter, and create lists 
 - Foundational role of lists in understanding complex programming concepts.
 - Noticed differences in how programming languages handle lists.
 - Connection to relevancy checklist, showing interconnected lessons that build a solid learning base.
+- What it's like to be a teacher
 
 **Personal Growth and Accomplishment**
 - Sprint provided a growth experience.
