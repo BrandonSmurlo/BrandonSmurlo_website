@@ -39,3 +39,10 @@ I have always enjoyed solving complex problems and working with numbers. Math ha
 <img src="https://cdn.britannica.com/00/6200-004-42B7690E/Flag-Albania.jpg" alt="Flag of Albania" style="width: 200px; height: auto;">
 
 
+<script src="https://utteranc.es/client.js"
+        repo="BrandonSmurlo/BrandonSmurlo_website"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
