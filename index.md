@@ -71,6 +71,33 @@ hide: true
   }
 </style>
 
+<div class="section">
+    <p>MCQ Blog + Sprint 3 Reflection</p>
+    <button class="custom-button" onclick="location.href='mcq_blog.html'">MCQ Blog + Sprint 3 Reflection</button>
+</div>
+
+<!-- Placeholder link for creating the mcq_blog.html file -->
+<a href="mcq_blog.md" style="display:none;">Create mcq_blog.html</a>
+
+<style>
+    .custom-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        background-color: #007BFF; /* Button color */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .custom-button:hover {
+        background-color: #0056b3; /* Hover color */
+    }
+</style>
+
+
+
 
 <div class="section">
    <p>Fun Button</p>
