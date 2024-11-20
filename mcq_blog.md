@@ -138,46 +138,29 @@ From this quiz, I learned that I need to improve my understanding of several key
 - **3.10: Lists**: I made several mistakes with list slicing and operations like sorting. I need to focus on how to properly manipulate lists.
 - **4.2: Fault Tolerance**: I wasn’t careful with potential errors, like miscounting values or picking wrong indices, showing that I need to work on handling errors more effectively in my programs.
 
+**I received 50% on the following Topics:**
+- 1.4: Identifying and Correcting Errors
+- 2.1: Binary Numbers
+- 3.6: Conditionals
+- 3.15: Random Values
+
+In order to improve on these key topics and the ones listed above, I can refer to the student presentations given in the previous trimester in order to sharpen my skills and become more familiar with basic concepts such as conditionals, boolean expressions, and more.
 
 
 # **Sprint 3 Reflection:**
 
 # Greatest Coding Accomplishment (Music Page):
 
-**Custom User Playlists Code Snippet**
-
-let playlist = [];
-
-function addSong() {
-    const song = document.getElementById('songInput').value;
-    if (song) {
-        playlist.push(song);
-        updatePlaylist();
-        document.getElementById('songInput').value = ''; // Clear input
-    }
-}
-
-function updatePlaylist() {
-    const playlistDiv = document.getElementById('playlist');
-    playlistDiv.innerHTML = '';
-    playlist.forEach((song, index) => {
-        const songDiv = document.createElement('div');
-        songDiv.classList.add('song');
-        songDiv.textContent = `${index + 1}. ${song}`;
-        playlistDiv.appendChild(songDiv);
-    });
-}
-
 **What it Does:**
 
-- Adds songs to a playlist dynamically.
-- Updates the list in real-time without reloading the page.
+- Adds a fun game that you can play when bored on the website
+- Helps you stay entertained in the music review page
 
 **Why it is an Accomplishment:**
 
-- It is simple but interactive, and users can create and update playlists on the fly.
-- Easy to expand with features like saving playlists or removing songs.
+- It is simple but interactive, and users can have fun on the fly.
+- Easy to expand with features like adding more instrument options.
 
 **Reflection**
 
-The code for the user-curated playlist page was very significant to me in the sense that it was a challenge. It was a challenge to alter the code such that it would save after use, so that it could be accessed at a later time and previous playlists could be viewed, edited, and deleted. I had to consult several others in the classroom in order to collaborate and figure out how to make a "live" page where a user can see playlists that have been created.
+The code for the Playlist Reviews page was very significant to me in the sense that it was a challenge. It was a challenge to alter the code such that it would save after use, so that it could be accessed at a later time and previous reviews could be viewed, edited, and deleted. I had to consult several others in the classroom in order to collaborate and figure out how to make a "live" page where a user can see reviews that have been created.
