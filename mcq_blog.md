@@ -130,7 +130,7 @@ This final question involved extracting specific elements from a list. I made a 
 
 ## Conclusion and Areas for Improvement
 
-From this quiz, I learned that I need to improve my understanding of several key topics. Here are the topics I answered 0% correctly on the MCQ:
+From this quiz, I learned that I need to improve my understanding of several key topics. Here are the topics I answered **0% or 33% correctly** on the MCQ:
 
 - **2.4: Using Programs with Data**: I struggled with counting, sorting, and extracting values from lists, which made me realize I need more practice with loops, list operations, and string manipulations.
 - **3.3: Mathematical Expressions**: I misunderstood some operations, especially when they involved prime numbers and sorting, showing I need to work on how I handle mathematical expressions programmatically.
@@ -143,6 +143,14 @@ From this quiz, I learned that I need to improve my understanding of several key
 - 2.1: Binary Numbers
 - 3.6: Conditionals
 - 3.15: Random Values
+
+**I received 67% on the following Topic:**
+- 5.6: Safe Computing
+
+**I received 75%, 80%, and 86% on the following Topics Respectively:**
+- 3.9: Developing Algorithms
+- 3.12: Calling Procedures
+- 2.3: Extracting Information from Data
 
 In order to improve on these key topics and the ones listed above, I can refer to the student presentations given in the previous trimester in order to sharpen my skills and become more familiar with basic concepts such as conditionals, boolean expressions, and more.
 
