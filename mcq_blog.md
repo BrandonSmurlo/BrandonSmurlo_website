@@ -130,7 +130,7 @@ This final question involved extracting specific elements from a list. I made a 
 
 ## Conclusion and Areas for Improvement
 
-From this quiz, I learned that I need to improve my understanding of several key topics:
+From this quiz, I learned that I need to improve my understanding of several key topics. Here are the topics I answered 0% correctly on the MCQ:
 
 - **2.4: Using Programs with Data**: I struggled with counting, sorting, and extracting values from lists, which made me realize I need more practice with loops, list operations, and string manipulations.
 - **3.3: Mathematical Expressions**: I misunderstood some operations, especially when they involved prime numbers and sorting, showing I need to work on how I handle mathematical expressions programmatically.
@@ -141,15 +141,6 @@ From this quiz, I learned that I need to improve my understanding of several key
 
 
 # **Sprint 3 Reflection:**
-
-| **Soft Skills**                  | **Points**    | **Grade** | **Evidence** |
-|----------------------------|---------------|-----------|--------------|
-| Work Habits (Analytics)    | 1             |   0.9        |     Took initiative in frontend development and collaborated with peers to troubleshoot issues.        |
-| Evidence of Role in Team   | 1             |     0.9      | Led the frontend design and worked closely with our scrum master to track project progress.           |
-| Function / Purpose Design  | 1             |     0.9      |  Ensured frontend functionality aligned with project objectives and user experience.            |
-| Live Review                | 2             |      0.9     | Introduced the website during the live review and effectively communicated design and progress.       |
-| **Total**                  | 5             |     3.6/4      |              |
-
 
 # Greatest Coding Accomplishment (Music Page):
 
