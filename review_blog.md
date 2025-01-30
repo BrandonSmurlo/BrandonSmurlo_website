@@ -140,3 +140,175 @@ search_exclude: true
 <img src="images/Screenshot 2025-01-27 at 6.58.55 PM.png" alt="Screenshot of my code" />
     <footer>
        
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: white;
+            color: black;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .code-container {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            white-space: pre-wrap;
+            font-family: monospace;
+        }
+        .description {
+            margin-top: 10px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>College Board Code Explanation</h1>
+
+    <h2>Setting Up the API</h2>
+    <div class="code-container">
+from flask import Blueprint, jsonify, Flask, request
+from flask_restful import Api, Resource
+from flask_cors import CORS
+
+music_pref_api = Blueprint('music_pref_api', __name__, url_prefix='/api/musicpref')
+api = Api(music_pref_api)
+CORS(music_pref_api)
+    </div>
+    <p class="description">This initializes the Flask API, enabling communication between the frontend and backend.</p>
+
+    <h2>Defining the Data Model</h2>
+    <div class="code-container">
+class MusicPref:
+    def __init__(self, name, uid, favorites, music_platform, learn_preference, listening_frequency, favorite_era, important_aspect):
+        self.name = name
+        self.uid = uid
+        self.favorites = favorites
+        self.music_platform = music_platform
+        self.learn_preference = learn_preference
+        self.listening_frequency = listening_frequency
+        self.favorite_era = favorite_era
+        self.important_aspect = important_aspect
+    </div>
+    <p class="description">This class represents a user’s music preferences, storing key attributes.</p>
+
+    <h2>Handling API Requests</h2>
+    <div class="code-container">
+class MusicPrefAPI(Resource):
+    def get(self):
+        return jsonify(music_preferences)
+
+    def post(self):
+        body = request.get_json()
+        new_pref = {
+            "name": body["name"],
+            "uid": body["uid"],
+            "favorites": body["artist_pref"].split(", "),
+            "music_platform": body["method"],
+            "learn_preference": body["new_music"],
+            "listening_frequency": body["how_often"],
+            "favorite_era": body["era"],
+            "important_aspect": body["favorite_aspect"]
+        }
+        music_preferences.append(new_pref)
+        return jsonify(new_pref)
+    </div>
+    <p class="description">This class handles GET and POST requests for retrieving and adding user data.</p>
+
+    <h2>Fetching and Displaying Data</h2>
+    <div class="code-container">
+function fetchMusicPrefs() {
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            const tableBody = document.getElementById('preferencesTable').getElementsByTagName('tbody')[0];
+            tableBody.innerHTML = ""; 
+            data.forEach(pref => {
+                const row = tableBody.insertRow();
+                row.innerHTML = `
+                    <td>${pref.name}</td>
+                    <td>${pref.uid}</td>
+                    <td>${pref.favorites.join(', ')}</td>
+                    <td>${pref.music_platform}</td>
+                    <td>${pref.learn_preference}</td>
+                    <td>${pref.listening_frequency}</td>
+                    <td>${pref.favorite_era}</td>
+                    <td>${pref.important_aspect}</td>
+                    <td class="actions">
+                        <button onclick="editMusicPref('${pref.uid}')">Edit</button>
+                        <button onclick="deleteMusicPref(${pref.id}, this)">Delete</button>
+                    </td>
+                `;
+            });
+        })
+        .catch(error => console.error("Error fetching data:", error));
+}
+    </div>
+    <p class="description">This function retrieves stored music preferences from the backend and displays them in a table.</p>
+
+    <h2>Editing a User's Name</h2>
+    <div class="code-container">
+function editMusicPref(uid) {
+    editingUID = uid;
+    const modal = document.getElementById('editModal');
+    modal.style.display = 'flex';
+}
+    </div>
+    <p class="description">This function opens a modal for editing a user’s name.</p>
+
+    <div class="code-container">
+document.getElementById('saveNameButton').addEventListener('click', () => {
+    const newName = document.getElementById('editName').value;
+    fetch(`${apiUrl}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ uid: editingUID, name: newName })
+    })
+    .then(response => response.json())
+    .then(() => {
+        alert('Name updated!');
+        fetchMusicPrefs();
+        document.getElementById('editName').value = ''; 
+        document.getElementById('editModal').style.display = 'none';
+    })
+    .catch(error => console.error('Error updating name:', error));
+});
+    </div>
+    <p class="description">This function sends a PUT request to update a user’s name in the backend.</p>
+
+    <h2>Deleting a Music Preference</h2>
+    <div class="code-container">
+function deleteMusicPref(id, buttonElement) {
+    if (confirm('Are you sure you want to delete this entry?')) {
+        fetch(apiUrl, {
+            method: 'DELETE',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id: id })
+        })
+        .then(response => {
+            if (response.ok) {
+                alert('Music preference deleted!');
+                const row = buttonElement.closest('tr');
+                row.remove();
+            } else {
+                alert('Error deleting music preference');
+            }
+        })
+        .catch(error => console.error('Error deleting data:', error));
+    }
+}
+    </div>
+    <p class="description">This function handles deleting a user’s music preference from the database.</p>
+
+</body>
+</html>
