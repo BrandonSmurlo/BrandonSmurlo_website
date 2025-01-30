@@ -173,7 +173,6 @@ search_exclude: true
 </head>
 <body>
 
-    <h1>College Board Code Explanation</h1>
 
     <h2>Setting Up the API</h2>
     <div class="code-container">
@@ -312,3 +311,40 @@ function deleteMusicPref(id, buttonElement) {
 
 </body>
 </html>
+
+
+<!-- Lists -->
+<h2>Lists</h2>
+<p>The <code>favorites</code> field in the <code>MusicPref</code> model is an example of a list. It allows a user to store multiple favorite artists.</p>
+
+<textarea readonly rows="10" cols="80">
+music_pref = MusicPref(
+    name=name,
+    uid=uid,
+    favorites=[artist_pref],  # List storing favorite artists
+    music_platform=method,
+    learn_preference=new_music,
+    listening_frequency=how_often,
+    favorite_era=era,
+    important_aspect=favorite_aspect
+)
+</textarea>
+
+
+
+<!-- Algorithms in Code -->
+<h2>Algorithms</h2>
+<p>Example of an algorithm that <strong>fetches a user’s music preference</strong> based on their name:</p>
+
+<textarea readonly rows="10" cols="80">
+@staticmethod
+def get_user(name):
+    users = {
+        "Hannah": { "ArtistPref": "Taylor Swift", "Method": "Spotify" },
+        "Rhea": { "ArtistPref": "SZA", "Method": "Spotify" },
+        "Carson": { "ArtistPref": "Frank Ocean", "Method": "Spotify" }
+    }
+    return users.get(name)  # Algorithm that looks up a user by name
+</textarea>
+
+<p>This algorithm takes a <strong>name</strong> as input, searches for it in a <strong>dictionary</strong>, and returns the matching data. If the name isn’t found, it returns nothing.</p>
