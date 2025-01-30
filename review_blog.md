@@ -200,7 +200,7 @@ class MusicPref:
         self.favorite_era = favorite_era
         self.important_aspect = important_aspect
     </div>
-    <p class="description">This class represents a user’s music preferences, storing key attributes.</p>
+    <p class="description"> Template for storing user music preferences. It says what kind of information (name, favorite artist, etc.) we will keep. This class represents a user’s music preferences, storing key attributes.</p>
 
     <h2>Handling API Requests</h2>
     <div class="code-container">
@@ -223,7 +223,7 @@ class MusicPrefAPI(Resource):
         music_preferences.append(new_pref)
         return jsonify(new_pref)
     </div>
-    <p class="description">This class handles GET and POST requests for retrieving and adding user data.</p>
+    <p class="description"> Listens for requests from the website. This class handles GET and POST requests for retrieving and adding user data.</p>
 
     <h2>Fetching and Displaying Data</h2>
     <div class="code-container">
