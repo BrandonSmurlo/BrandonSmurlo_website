@@ -1,0 +1,230 @@
+---
+layout: base 
+title: Collegeboard Video Blog
+search_exclude: true
+
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Idea 4.1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            color: #0077cc;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+        li {
+            font-size: 18px;
+        }
+        .image {
+            display: block;
+            margin: 20px auto;
+            max-width: 400px;
+            height: auto;
+        }
+        .section-spacing {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Big Idea 4.1</h1>
+    <ul>
+        <li>Computing system = group of computing devices and program working together for a common purpose</li>
+        <li>Computer network = group of interconnected computing devices capable of sending or receiving data.</li>
+        <li>A path between two computing devices on a network is a sequence of directly connected computing devices (Begins at the sender and ends at the receiver)</li>
+        <li>Bandwidth of computer network = maximum amount of data that can be sent in a fixed amount of time (bits/s).</li>
+        <li>Packet = Small amount of data sent over a network, includes source and destination info.</li>
+        <li>Packet switching = message (file) broken up into packets, sent in any order</li>
+        <li>Packets reassembled on recipient's device</li>
+    </ul>
+
+    <div class="section-spacing">
+        <img src="images/Screenshot 2025-02-03 at 9.11.38 PM.png" alt="Network Diagram" class="image">
+    </div>
+
+    <ul>
+        <li>OSI = Open systems interconnect: The layers you have to go through to communicate</li>
+        <li>TCP = Transmission control protocol: Establishes common standard for how to send messages between devices on the internet.</li>
+        <li>IETF = Internet engineering task force: Manages development of standards and technical discussions regarding the internet.</li>
+        <li>NIC = Network Internet Card: Each with unique address, used for local hops</li>
+        <li>A packet contains data being transmitted as well as metadata</li>
+        <li>Metadata = Data that describes data</li>
+        <li>Internet = Computer network of interconnected networks that use standardized communication protocols</li>
+        <li>Protocol = Agreed-upon set of rules that specify the behavior of a system.</li>
+        <li>Internet = scalable, can change size and scale to meet new demands.</li>
+    </ul>
+
+    <div class="section-spacing">
+        <img src="images/Examples-of-Internet-Protocols-image.webp" alt="Internet Protocols Example" class="image">
+    </div>
+</body>
+</html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Idea 4.2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            color: #0077cc;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+        li {
+            font-size: 18px;
+        }
+        .image {
+            display: block;
+            margin: 20px auto;
+            max-width: 400px;
+            height: auto;
+        }
+        .section-spacing {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Big Idea 4.2</h1>
+    <ul>
+        <li>Internet engineered to be fault tolerant</li>
+        <li>Redundancy = Inclusion of extra components that can be used to mitigate failure of a system if others fail</li>
+        <li>Redundancy can be accomplished by having more than one path between devices</li>
+        <li>If one device or connection fails, data is sent via a different route</li>
+        <li>Fault tolerant = System that can support failures and continue to function</li>
+        <li>Redundancy of routing options increases internet reliability</li>
+        <li>Fault tolerant if connected to multiple other devices by more than one path</li>
+        <li>More devices with more network connections makes network stronger</li>
+    </ul>
+
+    <div class="section-spacing">
+        <img src="images/images.jpg" alt="Network Redundancy Example" class="image">
+    </div>
+
+    <ul>
+        <li>Benefits of a fault-tolerant network: Data has more than one possible path, there are backup networks if one fails, and more devices create a stronger network</li>
+        <li>Redundancy requires additional resources but can provide the benefit of fault tolerance</li>
+        <li>Redundancy of routing options increases reliability, helps it scale to more devices and more people</li>
+    </ul>
+
+    <div class="section-spacing">
+        <img src="images/node_lose_connectivity.png" alt="Node Connectivity Loss Diagram" class="image">
+    </div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Idea 4.3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            color: #0077cc;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+        li {
+            font-size: 18px;
+        }
+        .image {
+            display: block;
+            margin: 20px auto;
+            width: 200px; /* Slightly larger image size */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .section-spacing {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Big Idea 4.3</h1>
+    <ul>
+        <li>Sequential computing = computational model in which operations are performed in order, one at a time</li>
+        <li>Parallel computing = computational model where the program is broken into smaller sequential computing operations</li>
+        <li>Distributed computing = computational model in which multiple devices are used to run a program</li>
+        <li>Comparing efficiency of solutions: done by comparing time taken to perform the same task</li>
+        <li>Sequential solution takes as long as the sum of its steps</li>
+        <li>Parallel computing solution takes as long as its sequential tasks plus the longest of its parallel tasks</li>
+        <li>"Speedup" of a parallel solution is measured as the time it took to complete the task sequentially divided by the time it took to complete the task when done in parallel</li>
+        <li>Parallel computing consists of a parallel portion and a sequential portion</li>
+        <li>Solutions using parallel computing can scale more effectively than solutions that use sequential computing</li>
+    </ul>
+
+    <div class="section-spacing">
+        <img src="images/image_720.png" alt="Parallel vs Sequential Computing" class="image">
+    </div>
+
+    <ul>
+        <li>Distributed computing allows problems to be solved that could not be solved on a single computer due to processing time or storage needs</li>
+        <li>Distributed computing allows much larger problems to be solved quicker than with a single computer</li>
+        <li>System tasks: The operating system has dozens of tasks, like scheduling what it will be doing next, managing hardware, and working with the network</li>
+        <li>User tasks: Executing programs that the user has selected, such as running MS Excel and MS Word, or computer games</li>
+        <li>Tasks need to be scheduled by the operating system</li>
+        <li>Balance tasks so all CPUs are being used evenly and fully</li>
+        <li>Running tasks can be done sequentially, in parallel, and be distributed to other computers</li>
+    </ul>
+
+    <div class="section-spacing">
+        <img src="images/image_720-1.png" alt="Task Distribution in Computing" class="image">
+    </div>
+
+    <ul>
+        <li>Sequential computing = Tasks are done one after another. It is a computational model in which operations are performed in order, one at a time</li>
+        <li>Limited hardware: It only has one CPU</li>
+        <li>Tasks are dependent: Task B depends on task A, task C depends on task B, so the needed order is A, B, and C</li>
+        <li>Time equals the longest time taken on any given processor</li>
+        <li>A parallel computing solution takes as long as its sequential tasks plus the longest of its parallel tasks</li>
+    </ul>
+</body>
+</html>

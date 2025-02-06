@@ -143,7 +143,45 @@ hide: true
 
 
 
+<style>
+  img {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 150px;
+    animation: walk 10s linear infinite;
+  }
+  @keyframes walk {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(100vw); }
+  }
+</style>
 
+<div class="section">
+    <p>Collegeboard Videos Big Idea 4</p>
+    <button class="custom-button" onclick="location.href='collegeboard_vids.html'">Collegeboard Videos Big Idea 4</button>
+</div>
+
+<!-- Placeholder link for creating the mcq_blog.html file -->
+<a href="collegeboard_vids.md" style="display:none;">Create collegeboard_vids.html</a>
+
+<style>
+    .custom-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        background-color: #007BFF; /* Button color */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .custom-button:hover {
+        background-color: #0056b3; /* Hover color */
+    }
+</style>
 
 
 
