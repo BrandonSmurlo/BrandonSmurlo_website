@@ -1,9 +1,73 @@
 ---
 layout: base 
-title: Collegeboard Video Blog
+title: Collegeboard Video Blog + Key Terms
 search_exclude: true
 
 ---
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Vocab and Commands</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1 {
+            color: #0077cc;
+            text-align: center;
+        }
+        h2 {
+            color: #005599;
+            margin-top: 30px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            line-height: 1.6;
+        }
+        li {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Key Vocab and Commands</h1>
+    
+    <h2>Key Vocab Terms and Definitions</h2>
+    <ul>
+        <li><strong>Calling a function:</strong> Running a specific block of code in a program by its name.</li>
+        <li><strong>Python URI:</strong> A web address used in Python to access resources like APIs or files.</li>
+        <li><strong>Nginx:</strong> A web server that helps manage and speed up website traffic by handling requests efficiently.</li>
+        <li><strong>DNS endpoint:</strong> The final destination of a website’s address that connects users to the correct server.</li>
+        <li><strong>Dockerfile:</strong> A script that contains instructions for building a containerized application.</li>
+        <li><strong>Virtual machine:</strong> A simulated computer that runs inside another computer, acting like a separate system.</li>
+        <li><strong>Deployment host:</strong> The server where an application is installed and made available for users.</li>
+        <li><strong>Reverse proxy:</strong> A server that forwards client requests to different backend servers, improving security and performance.</li>
+    </ul>
+    
+    <h2>Key Commands and Definitions</h2>
+    <ul>
+        <li><strong>docker-compose.yml:</strong> A file that defines and configures multiple Docker containers to work together.</li>
+        <li><strong>docker ps:</strong> Displays a list of running Docker containers.</li>
+        <li><strong>sudo:</strong> A command that allows a user to execute tasks with administrator privileges.</li>
+        <li><strong>sudo docker-compose up:</strong> Starts and runs all services defined in a Docker Compose file.</li>
+        <li><strong>docker-compose up -d --build:</strong> Builds the latest container image and runs services in the background.</li>
+        <li><strong>sudo nano projectUniqueName:</strong> Opens a text file in the Nano editor for making changes.</li>
+        <li><strong>sudo nginx -t:</strong> Tests the Nginx configuration to check for errors before restarting.</li>
+        <li><strong>sudo systemctl restart nginx:</strong> Restarts the Nginx web server to apply new settings.</li>
+        <li><strong>sudo certbot --nginx:</strong> Automatically configures HTTPS security for a website using a free SSL certificate.</li>
+    </ul>
+</body>
+</html>
+
+
 
 <html lang="en">
 <head>
