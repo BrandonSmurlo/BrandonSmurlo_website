@@ -5,6 +5,9 @@ search_exclude: true
 
 ---
 
+As the assistant scrum master of my group, I helped those in my group to understand the material and improve their features. I assisted with project organization, planning, and task completion. I also supported the Scrum Master and helped plan and manage workload for myself and two other members
+
+
 
 <html lang="en">
 <head>
