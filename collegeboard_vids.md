@@ -10,6 +10,56 @@ search_exclude: true
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon EC2 & Docker Notes</title>
+</head>
+<body>
+    <h1>Deployment Procedure</h1>
+
+    <h2>Cockpit</h2>
+    <p>Cockpit is the terminal for the Amazon EC2 server.</p>
+
+    <h2>EC2 Server</h2>
+    <p>Inside the EC2 server, I have a docker container running called <strong>melodymates</strong>.</p>
+    <p>Container running on port <strong>8404</strong>.</p>
+    <p>Container = virtual computer, running our server for the backend.</p>
+    <p>When you get a request to the EC2 server that has the port 8404, our nginx file will help it route to our container.</p>
+    <p>Identifies it based on our unique port.</p>
+
+    <h2>Image & Container</h2>
+    <p><strong>Image</strong> = blueprint for the virtual computer.</p>
+    <p><strong>Container</strong> is running this “blueprint.”</p>
+
+    <h2>Docker Commands</h2>
+    <ul>
+        <li><strong>docker-compose down/up/build</strong></li>
+        <li><strong>Down:</strong> Finds what container I’m in, gets rid of the container (not image), and stops it from running.</li>
+        <li><strong>Build:</strong> Creates a docker image, creates a blueprint for my container.</li>
+        <li><strong>Up:</strong> Runs the blueprint. Takes the image and runs it on port 8404.</li>
+    </ul>
+
+    <h2>Docker Overview</h2>
+    <p><strong>Docker</strong> = Virtual machine, handler for virtual containers.</p>
+
+    <h2>DNS and Routing</h2>
+    <p>When you send a request to the DNS:</p>
+    <p><strong>DNS:</strong> Instead of typing numbers for a URL, you type <code>melodymates.stu.nighthawkcodingsociety.com</code>.</p>
+    <p>Whenever someone makes a request to the DNS, it will go to our EC2 server, where it gets routed by nginx to our container.</p>
+    <p>The container will process the request and return JSON data back to nginx, and nginx will send it back to the client (the one who sent the request), who can choose what they do with the data.</p>
+
+    <h2>PythonURI</h2>
+    <p><strong>PythonURI:</strong> URL for melodymates (<code>melodymates.stu.nighthawkcodingsociety.com</code>).</p>
+    <p>DNS takes an IP and makes it look better with a domain name, while PythonURI is a variable in my frontend to reference that link.</p>
+    <p>Goes from <strong>8887 → 8404</strong>.</p>
+    <p><strong>URI</strong> is an endpoint (URL).</p>
+
+</body>
+</html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Key Vocab and Commands</title>
     <style>
         body {
@@ -54,6 +104,7 @@ search_exclude: true
     
     <h2>Key Commands and Definitions</h2>
     <ul>
+        <li><strong>curl:</strong> A command-line tool used to send and receive data from URLs, often used to test APIs and download files.</li>
         <li><strong>docker-compose.yml:</strong> A file that defines and configures multiple Docker containers to work together.</li>
         <li><strong>docker ps:</strong> Displays a list of running Docker containers.</li>
         <li><strong>sudo:</strong> A command that allows a user to execute tasks with administrator privileges.</li>
@@ -212,7 +263,7 @@ search_exclude: true
 
 
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">

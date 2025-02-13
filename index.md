@@ -159,8 +159,8 @@ hide: true
 </style>
 
 <div class="section">
-    <p>Collegeboard Videos Big Idea 4</p>
-    <button class="custom-button" onclick="location.href='collegeboard_vids.html'">Collegeboard Videos Big Idea 4</button>
+    <p>Deployment Blog</p>
+    <button class="custom-button" onclick="location.href='collegeboard_vids.html'">Deployment Blog</button>
 </div>
 
 <!-- Placeholder link for creating the mcq_blog.html file -->
