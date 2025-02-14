@@ -122,6 +122,47 @@ As the assistant scrum master of my group, I helped those in my group to underst
 </html>
 
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-Deployment Process</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Post-Deployment Process</h1>
+    <h2>Updating Repo in the AWS Terminal</h2>
+    <p>When you edit and commit changes on VSCode, they don’t automatically get changed on AWS. The following steps show how this can be done.</p>
+    <ol>
+        <li>Navigate to the initial directory: <code>cd ~</code></li>
+        <li>Navigate into your repo’s directory: <code>cd repo_name</code></li>
+        <li>Shutdown the subdomain: <code>docker-compose down</code></li>
+        <li>Pull in any changes: <code>git pull</code></li>
+        <li>Reinitialize the subdomain: <code>docker-compose up -d</code></li>
+    </ol>
+</body>
+</html>
+
 
 <html lang="en">
 <head>
