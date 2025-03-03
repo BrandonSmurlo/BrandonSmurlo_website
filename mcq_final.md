@@ -22,6 +22,86 @@ search_exclude: true
 
 <hr style="border: 3px solid black;">
 
+<div class="question-box" style="background-color: #f8f9fa; padding: 20px; border-left: 8px solid #117a8b; padding-bottom: 30px;">
+    <h2 style="text-align: center; color: #117a8b; font-size: 2em; text-transform: uppercase; font-weight: bold; margin-bottom: 20px;">
+        CPT Requirement Highlights/Application
+    </h2>
+
+    <p class="analysis" style="font-size: 1.2em; text-align: center; margin-bottom: 20px;">
+        My profile-building feature in MelodyMates applies key computing concepts such as sequencing, selection, iteration, lists, and dictionaries to process user music preferences dynamically.
+    </p>
+
+    <table style="width: 100%; border-collapse: collapse; background-color: white;">
+        <tr style="background-color: #117a8b; color: white;">
+            <th style="width: 25%; padding: 12px; text-align: center; font-size: 1.2em;">CPT Requirement</th>
+            <th style="width: 10%; padding: 12px; text-align: center; font-size: 1.2em;">✔️</th>
+            <th style="width: 65%; padding: 12px; text-align: left; font-size: 1.2em;">Application in MelodyMates</th>
+        </tr>
+
+        <tr style="background-color: #fce4ec;">
+            <td style="padding: 12px; text-align: center; font-weight: bold;">Sequencing</td>
+            <td style="text-align: center; font-size: 1.5em;">✔️</td>
+            <td style="padding: 12px;">
+                Steps in my program follow a structured order:  
+                1️⃣ User preferences are inputted.  
+                2️⃣ Data is stored in the backend database.  
+                3️⃣ Recommendations are generated and displayed on the frontend.  
+                This ensures smooth functionality and prevents errors.
+            </td>
+        </tr>
+
+        <tr style="background-color: #ede7f6;">
+            <td style="padding: 12px; text-align: center; font-weight: bold;">Selection</td>
+            <td style="text-align: center; font-size: 1.5em;">✔️</td>
+            <td style="padding: 12px;">
+                Conditional statements filter recommendations based on user preferences.  
+                <br>
+                <img src="images/Screenshot 2025-03-03 at 1.05.48 PM.png" alt="Selection Code Snippet" style="width: 100%; margin-top: 10px; border-radius: 5px;">
+            </td>
+        </tr>
+
+        <tr style="background-color: #e8f5e9;">
+            <td style="padding: 12px; text-align: center; font-weight: bold;">Iteration</td>
+            <td style="text-align: center; font-size: 1.5em;">✔️</td>
+            <td style="padding: 12px;">
+                A loop processes user data to generate recommendations dynamically.
+                <br>
+                <img src="images/Screenshot 2025-03-03 at 1.09.23 PM.png" alt="Iteration For Loop Code" style="width: 100%; margin-top: 10px; border-radius: 5px;">
+            </td>
+        </tr>
+
+        <tr style="background-color: #fff3e0;">
+            <td style="padding: 12px; text-align: center; font-weight: bold;">Lists</td>
+            <td style="text-align: center; font-size: 1.5em;">✔️</td>
+            <td style="padding: 12px;">
+                The backend database stores user preferences in structured lists:  
+                - <strong>user_preferences</strong>: Stores favorite artists.  
+                - <strong>trending_artists</strong>: Keeps track of popular artists.  
+                - <strong>recommendations</strong>: Stores dynamically generated suggestions.  
+                <br>
+                <img src="images/Screenshot 2025-03-03 at 1.02.13 PM.png" alt="Backend Lists Data Table" style="width: 100%; margin-top: 10px; border-radius: 5px;">
+            </td>
+        </tr>
+
+        <tr style="background-color: #ede7f6;">
+            <td style="padding: 12px; text-align: center; font-weight: bold;">Dictionary</td>
+            <td style="text-align: center; font-size: 1.5em;">✔️</td>
+            <td style="padding: 12px;">
+                User data is stored in a dictionary format for efficient access and retrieval:  
+                <br><strong>user_data = {"name": "John", "preferences": ["Artist1", "Artist2", "Artist3"]}</strong>.  
+                This structure allows for quick updates and efficient recommendation generation.
+            </td>
+        </tr>
+    </table>
+
+    <p class="analysis" style="margin-top: 20px; font-size: 1.1em; text-align: center;">
+        By implementing these computing principles, MelodyMates ensures structured data handling, efficient decision-making, and a smooth user experience.
+    </p>
+</div>
+
+
+<hr style="border: 3px solid black;">
+
 <h1>MelodyMates Project Feature</h1>
 
 <h2 style="color: #a3c4f3; font-family: 'Comic Sans MS', cursive, sans-serif; text-shadow: 2px 2px 5px rgba(163, 196, 243, 0.6); font-size: 1.5em;">
@@ -493,120 +573,6 @@ search_exclude: true
 
 <hr style="border: 3px solid black;">
 
-<div class="question-box" style="background-color: #f8f9fa; padding: 20px; border-left: 8px solid #117a8b;">
-    <h2 style="text-align: center; color: #117a8b; font-size: 2em; text-transform: uppercase; font-weight: bold; margin-bottom: 15px;">
-        CPT Requirement Highlights/Application
-    </h2>
-    
-    <p class="analysis" style="font-size: 1.2em; text-align: center; margin-bottom: 20px;">
-        My profile-building feature in MelodyMates allows users to input their music preferences, which are dynamically stored in a database. This feature incorporates several key computing principles required in the CPT project.
-    </p>
-
-    <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
-        
-        <div style="width: 45%; background-color: #e3f2fd; padding: 15px; border-radius: 10px;">
-            <h3 style="color: #0d47a1;">1. User Input</h3>
-            <p class="analysis">
-                Users enter their favorite artists, which are stored and used to personalize their profiles. Additionally, trending artist data is retrieved from an external data source to enhance recommendations.
-            </p>
-        </div>
-
-        <div style="width: 45%; background-color: #fff3e0; padding: 15px; border-radius: 10px;">
-            <h3 style="color: #e65100;">2. List/Collection</h3>
-            <p class="analysis">
-                The system uses multiple lists: <strong>user_preferences</strong> stores the user’s selected artists, <strong>trending_artists</strong> tracks popular music data, and <strong>recommendations</strong> generates suggested artists based on similarities.
-            </p>
-        </div>
-
-        <div style="width: 45%; background-color: #e8f5e9; padding: 15px; border-radius: 10px;">
-            <h3 style="color: #1b5e20;">3. Procedure Definition</h3>
-            <p class="analysis">
-                A function called <strong>generate_recommendations</strong> takes the user's preferences as a parameter and processes the data to return a list of suggested artists based on trending music and stored user preferences.
-            </p>
-        </div>
-
-        <div style="width: 45%; background-color: #fce4ec; padding: 15px; border-radius: 10px;">
-            <h3 style="color: #880e4f;">4. Algorithm Implementation</h3>
-            <p class="analysis">
-                The recommendation algorithm follows key programming constructs:
-                <ul>
-                    <li><strong>Sequencing:</strong> Data is initialized, retrieved, and processed in a specific order to ensure proper execution.</li>
-                    <li><strong>Selection:</strong> Conditional statements check for matching genres or similar artists before recommendations are made.</li>
-                    <li><strong>Iteration:</strong> Loops process each artist in the lists to generate recommendations dynamically.</li>
-                </ul>
-            </p>
-        </div>
-
-        <div style="width: 45%; background-color: #ede7f6; padding: 15px; border-radius: 10px;">
-            <h3 style="color: #4527a0;">5. Dictionary Usage</h3>
-            <p class="analysis">
-                The system utilizes dictionaries to efficiently store and retrieve user data. Each user has a dictionary mapping their preferences:  
-                <br><strong>user_data = {"name": "John", "preferences": ["Artist1", "Artist2", "Artist3"]}</strong>.  
-                This structure allows for quick lookups and modifications when updating user profiles.
-            </p>
-        </div>
-
-        <div style="width: 45%; background-color: #ede7f6; padding: 15px; border-radius: 10px;">
-            <h3 style="color: #4527a0;">6. Procedure Call</h3>
-            <p class="analysis">
-                The <strong>generate_recommendations</strong> function is called whenever a user submits new preferences or modifies existing ones. It updates dynamically with trending artist data to ensure relevant suggestions.
-            </p>
-        </div>
-
-        <div style="width: 45%; background-color: #ffebee; padding: 15px; border-radius: 10px;">
-            <h3 style="color: #b71c1c;">7. Output</h3>
-            <p class="analysis">
-                The final recommendations are displayed visually on the frontend, allowing users to see and interact with their personalized music suggestions.
-            </p>
-        </div>
-    </div>
-
-    <p class="analysis" style="margin-top: 20px; font-size: 1.1em; text-align: center;">
-        By integrating these CPT requirements, my feature effectively processes user data, maintains structured lists, applies algorithmic logic, utilizes dictionaries for efficient data storage, and delivers a dynamic, interactive experience.
-    </p>
-</div>
-
-
-
-<hr style="border: 3px solid black;">
-
-<!-- Blog Section: Feedback from Ms. Pataki -->
-<div style="margin: 40px auto; width: 80%; background-color: #fff3cd; padding: 20px; border-radius: 15px; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); text-align: center;">
-    
-    <h2 style="color: #856404; font-size: 2em; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);">Feedback & Improvements</h2>
-    
-    <p style="color: #333; font-size: 1.2em; margin-bottom: 20px;">
-        During our website review with <strong>Ms. Pataki</strong>, we presented a brief rundown of our website’s features, showcasing the different functionalities we implemented.
-    </p>
-    
-    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
-
-        <!-- Feedback Received -->
-        <div style="width: 45%; background-color: #f8d7da; padding: 15px; border-radius: 12px; box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);">
-            <h3 style="color: #721c24;">🔎 Feedback Given</h3>
-            <p style="color: #721c24; font-size: 1.1em;">
-                Ms. Pataki suggested an improvement for our <strong>Artist Recommendation</strong> feature—allowing users to edit their favorite artists after making a submission.
-            </p>
-        </div>
-
-        <!-- Action Taken -->
-        <div style="width: 45%; background-color: #d4edda; padding: 15px; border-radius: 12px; box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);">
-            <h3 style="color: #155724;">✅ Action Taken</h3>
-            <p style="color: #155724; font-size: 1.1em;">
-                Based on her feedback, we <strong>updated the feature</strong> to allow users to modify their favorite artists, improving usability and user experience.
-            </p>
-        </div>
-
-    </div>
-
-    <p style="margin-top: 20px; color: #333; font-size: 1.2em;">
-        This change ensures that users have more control over their preferences, making the feature more dynamic and useful!
-    </p>
-
-</div>
-
-
-<hr style="border: 3px solid black;">
 
 <html lang="en">
 <head>
@@ -724,6 +690,7 @@ search_exclude: true
 
   <h2 style="color: #d9534f; font-size: 24px; font-weight: bold;">Final Score: 9/10</h2>
 
+(9.3/10 needed for A)
    
 </body>
 </html>
