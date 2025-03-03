@@ -45,7 +45,7 @@ search_exclude: true
                 Steps in my program follow a structured order:  
                 1️⃣ User preferences are inputted.  
                 2️⃣ Data is stored in the backend database.  
-                3️⃣ Recommendations are generated and displayed on the frontend.  
+                3️⃣ Preferences are displayed on the frontend.  
                 This ensures smooth functionality and prevents errors.
             </td>
         </tr>
