@@ -437,6 +437,43 @@ search_exclude: true
 
 <hr style="border: 3px solid black;">
 
+<!-- Blog Section: Feedback from Ms. Pataki -->
+<div style="margin: 40px auto; width: 80%; background-color: #fff3cd; padding: 20px; border-radius: 15px; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); text-align: center;">
+    
+    <h2 style="color: #856404; font-size: 2em; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);">Feedback & Improvements</h2>
+    
+    <p style="color: #333; font-size: 1.2em; margin-bottom: 20px;">
+        During our website review with <strong>Ms. Pataki</strong>, we presented a brief rundown of our website’s features, showcasing the different functionalities we implemented.
+    </p>
+    
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+
+        <!-- Feedback Received -->
+        <div style="width: 45%; background-color: #f8d7da; padding: 15px; border-radius: 12px; box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #721c24;">🔎 Feedback Given</h3>
+            <p style="color: #721c24; font-size: 1.1em;">
+                Ms. Pataki suggested an improvement for our <strong>Artist Recommendation</strong> feature—allowing users to edit their favorite artists after making a submission.
+            </p>
+        </div>
+
+        <!-- Action Taken -->
+        <div style="width: 45%; background-color: #d4edda; padding: 15px; border-radius: 12px; box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #155724;">✅ Action Taken</h3>
+            <p style="color: #155724; font-size: 1.1em;">
+                Based on her feedback, we <strong>updated the feature</strong> to allow users to modify their favorite artists, improving usability and user experience.
+            </p>
+        </div>
+
+    </div>
+
+    <p style="margin-top: 20px; color: #333; font-size: 1.2em;">
+        This change ensures that users have more control over their preferences, making the feature more dynamic and useful!
+    </p>
+
+</div>
+
+<hr style="border: 3px solid black;">
+
 <h1 style="text-align: center; font-size: 2.5em; color: #264653;">Future Pathways in Computer Science & Beyond</h1>
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; padding: 20px;">
@@ -688,9 +725,8 @@ search_exclude: true
         </tr>
     </table>
 
-  <h2 style="color: #d9534f; font-size: 24px; font-weight: bold;">Final Score: 9/10</h2>
+  <h2 style="color: #d9534f; font-size: 24px; font-weight: bold;">Final Score: ~9/10</h2>
 
-(9.3/10 needed for A)
    
 </body>
 </html>
