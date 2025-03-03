@@ -435,7 +435,114 @@ search_exclude: true
 
 <hr style="border: 3px solid black;">
 
-**Mock Review**
+<div class="exam-prep-section" style="background-color: #f5f5f5; padding: 25px; border-left: 8px solid #00796b; border-radius: 10px;">
+    <h2 style="text-align: center; color: #00796b; font-size: 2.2em; text-transform: uppercase; font-weight: bold; margin-bottom: 15px;">
+        Helping Each Other Get Final Exam Ready
+    </h2>
+
+    <p class="exam-intro" style="font-size: 1.2em; text-align: center; margin-bottom: 20px;">
+        Arush Shah and I have been working together to prepare for the final exam by reviewing each other's websites and giving feedback. We did a <b>mock presentation</b> to ensure we are both ready.
+    </p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: center;">
+        
+        <!-- Left side: Arush's feedback -->
+        <div style="width: 45%; background-color: #e3f2fd; padding: 20px; border-radius: 10px;">
+            <h3 style="color: #0d47a1;">Arush’s Feedback on My Website</h3>
+            <ul style="font-size: 1.1em; line-height: 1.6;">
+                <li><b>“The blog is very streamlined and clear.”</b></li>
+                <li>Creative layout makes information easy to follow.</li>
+                <li>Feature meets <b>all the criteria</b> for the final review.</li>
+                <li>Consider improving <b>UX (User Experience):</b></li>
+                <ul>
+                    <li>Use <b>fav icons</b> for edit and delete buttons.</li>
+                    <li>Enable <b>in-place editing</b> instead of pop-ups.</li>
+                </ul>
+                <li>Overall, great feature execution and solid blog content.</li>
+            </ul>
+        </div>
+
+        <!-- Right side: Studying Image -->
+        <div style="width: 45%; text-align: center;">
+            <img src="images/Screenshot 2025-03-02 at 7.09.17 PM.png" alt="Studying Together" style="width: 100%; border-radius: 10px; box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);">
+            <p style="font-size: 1em; color: #555; margin-top: 10px;">
+                Arush and I reviewing together for the final.
+            </p>
+        </div>
+    </div>
+
+    <p class="exam-conclusion" style="margin-top: 20px; font-size: 1.1em; text-align: center;">
+        Thanks to this feedback, I plan to refine my website’s <b>user experience</b> before the final review. Meanwhile, I also gave Arush feedback on his site to help him prepare.
+    </p>
+</div>
+
+
+<hr style="border: 3px solid black;">
+
+<div class="question-box" style="background-color: #f8f9fa; padding: 20px; border-left: 8px solid #117a8b;">
+    <h2 style="text-align: center; color: #117a8b; font-size: 2em; text-transform: uppercase; font-weight: bold; margin-bottom: 15px;">
+        CPT Requirement Highlights/Application
+    </h2>
+    
+    <p class="analysis" style="font-size: 1.2em; text-align: center; margin-bottom: 20px;">
+        My profile-building feature in MelodyMates allows users to input their music preferences, which are dynamically stored in a database. This feature incorporates several key computing principles required in the CPT project.
+    </p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+        
+        <div style="width: 45%; background-color: #e3f2fd; padding: 15px; border-radius: 10px;">
+            <h3 style="color: #0d47a1;">1. User Input</h3>
+            <p class="analysis">
+                Users enter their favorite artists, which are stored and used to personalize their profiles. Additionally, trending artist data is retrieved from an external data source to enhance recommendations.
+            </p>
+        </div>
+
+        <div style="width: 45%; background-color: #fff3e0; padding: 15px; border-radius: 10px;">
+            <h3 style="color: #e65100;">2. List/Collection</h3>
+            <p class="analysis">
+                The system uses multiple lists: <strong>user_preferences</strong> stores the user’s selected artists, <strong>trending_artists</strong> tracks popular music data, and <strong>recommendations</strong> generates suggested artists based on similarities.
+            </p>
+        </div>
+
+        <div style="width: 45%; background-color: #e8f5e9; padding: 15px; border-radius: 10px;">
+            <h3 style="color: #1b5e20;">3. Procedure Definition</h3>
+            <p class="analysis">
+                A function called <strong>generate_recommendations</strong> takes the user's preferences as a parameter and processes the data to return a list of suggested artists based on trending music and stored user preferences.
+            </p>
+        </div>
+
+        <div style="width: 45%; background-color: #fce4ec; padding: 15px; border-radius: 10px;">
+            <h3 style="color: #880e4f;">4. Algorithm Implementation</h3>
+            <p class="analysis">
+                The recommendation algorithm follows key programming constructs:
+                <ul>
+                    <li><strong>Sequencing:</strong> Data is initialized, retrieved, and processed in order.</li>
+                    <li><strong>Selection:</strong> Conditional statements check for matching genres or similar artists.</li>
+                    <li><strong>Iteration:</strong> Loops process each artist in the lists to generate recommendations.</li>
+                </ul>
+            </p>
+        </div>
+
+        <div style="width: 45%; background-color: #ede7f6; padding: 15px; border-radius: 10px;">
+            <h3 style="color: #4527a0;">5. Procedure Call</h3>
+            <p class="analysis">
+                The <strong>generate_recommendations</strong> function is called whenever a user submits new preferences or modifies existing ones. It updates dynamically with trending artist data to ensure relevant suggestions.
+            </p>
+        </div>
+
+        <div style="width: 45%; background-color: #ffebee; padding: 15px; border-radius: 10px;">
+            <h3 style="color: #b71c1c;">6. Output</h3>
+            <p class="analysis">
+                The final recommendations are displayed visually on the frontend, allowing users to see and interact with their personalized music suggestions.
+            </p>
+        </div>
+    </div>
+
+    <p class="analysis" style="margin-top: 20px; font-size: 1.1em; text-align: center;">
+        By integrating these CPT requirements, my feature effectively processes user data, maintains structured lists, applies algorithmic logic, and delivers a dynamic, interactive experience.
+    </p>
+</div>
+
 
 <hr style="border: 3px solid black;">
 
