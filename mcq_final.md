@@ -530,22 +530,31 @@ search_exclude: true
             <p class="analysis">
                 The recommendation algorithm follows key programming constructs:
                 <ul>
-                    <li><strong>Sequencing:</strong> Data is initialized, retrieved, and processed in order.</li>
-                    <li><strong>Selection:</strong> Conditional statements check for matching genres or similar artists.</li>
-                    <li><strong>Iteration:</strong> Loops process each artist in the lists to generate recommendations.</li>
+                    <li><strong>Sequencing:</strong> Data is initialized, retrieved, and processed in a specific order to ensure proper execution.</li>
+                    <li><strong>Selection:</strong> Conditional statements check for matching genres or similar artists before recommendations are made.</li>
+                    <li><strong>Iteration:</strong> Loops process each artist in the lists to generate recommendations dynamically.</li>
                 </ul>
             </p>
         </div>
 
         <div style="width: 45%; background-color: #ede7f6; padding: 15px; border-radius: 10px;">
-            <h3 style="color: #4527a0;">5. Procedure Call</h3>
+            <h3 style="color: #4527a0;">5. Dictionary Usage</h3>
+            <p class="analysis">
+                The system utilizes dictionaries to efficiently store and retrieve user data. Each user has a dictionary mapping their preferences:  
+                <br><strong>user_data = {"name": "John", "preferences": ["Artist1", "Artist2", "Artist3"]}</strong>.  
+                This structure allows for quick lookups and modifications when updating user profiles.
+            </p>
+        </div>
+
+        <div style="width: 45%; background-color: #ede7f6; padding: 15px; border-radius: 10px;">
+            <h3 style="color: #4527a0;">6. Procedure Call</h3>
             <p class="analysis">
                 The <strong>generate_recommendations</strong> function is called whenever a user submits new preferences or modifies existing ones. It updates dynamically with trending artist data to ensure relevant suggestions.
             </p>
         </div>
 
         <div style="width: 45%; background-color: #ffebee; padding: 15px; border-radius: 10px;">
-            <h3 style="color: #b71c1c;">6. Output</h3>
+            <h3 style="color: #b71c1c;">7. Output</h3>
             <p class="analysis">
                 The final recommendations are displayed visually on the frontend, allowing users to see and interact with their personalized music suggestions.
             </p>
@@ -553,9 +562,10 @@ search_exclude: true
     </div>
 
     <p class="analysis" style="margin-top: 20px; font-size: 1.1em; text-align: center;">
-        By integrating these CPT requirements, my feature effectively processes user data, maintains structured lists, applies algorithmic logic, and delivers a dynamic, interactive experience.
+        By integrating these CPT requirements, my feature effectively processes user data, maintains structured lists, applies algorithmic logic, utilizes dictionaries for efficient data storage, and delivers a dynamic, interactive experience.
     </p>
 </div>
+
 
 
 <hr style="border: 3px solid black;">
