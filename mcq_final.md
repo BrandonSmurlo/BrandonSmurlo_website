@@ -109,6 +109,20 @@ search_exclude: true
     <p>Overall, the event was a great success, and we appreciate all the feedback we received!</p>
 </div>
 
+<hr style="border: 3px solid black;">
+
+<div class="accomplishments-section" style="background-color: #fff3e0; padding: 25px; border-left: 8px solid #ff6f00; border-radius: 10px;">
+    <h2 style="text-align: center; color: #ff6f00; font-size: 2.2em; text-transform: uppercase; font-weight: bold; margin-bottom: 15px;">
+        My Top 5 Accomplishments This Trimester
+    </h2>
+
+    <div style="margin-top: 20px; text-align: center;">
+        <a href="https://github.com/gaheerab/sprint4_frontend/issues/16" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #ff7043; color: white; text-decoration: none; font-weight: bold; border-radius: 5px;">
+            View My Accomplishments on GitHub Issues
+        </a>
+    </div>
+
+</div>
 
 
 <hr style="border: 3px solid black;">
