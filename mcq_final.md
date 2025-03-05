@@ -22,80 +22,56 @@ search_exclude: true
 
 <hr style="border: 3px solid black;">
 
-<div class="question-box" style="background-color: #f8f9fa; padding: 20px; border-left: 8px solid #117a8b; padding-bottom: 30px;">
-    <h2 style="text-align: center; color: #117a8b; font-size: 2em; text-transform: uppercase; font-weight: bold; margin-bottom: 20px;">
+<div class="question-box" style="background-color: #f8f9fa; padding: 20px; border-left: 8px solid #117a8b;">
+    <h2 style="text-align: center; color: #117a8b; font-size: 2em; text-transform: uppercase; font-weight: bold; margin-bottom: 15px;">
         CPT Requirement Highlights/Application
     </h2>
 
     <p class="analysis" style="font-size: 1.2em; text-align: center; margin-bottom: 20px;">
-        My profile-building feature in MelodyMates applies key computing concepts such as sequencing, selection, iteration, lists, and dictionaries to process user music preferences dynamically.
+        My profile-building feature in MelodyMates allows users to input their music preferences, which are dynamically stored in a database. This feature incorporates several key computing principles required in the CPT project.
     </p>
 
-    <table style="width: 100%; border-collapse: collapse; background-color: white;">
+    <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
         <tr style="background-color: #117a8b; color: white;">
-            <th style="width: 25%; padding: 12px; text-align: center; font-size: 1.2em;">CPT Requirement</th>
-            <th style="width: 10%; padding: 12px; text-align: center; font-size: 1.2em;">✔️</th>
-            <th style="width: 65%; padding: 12px; text-align: left; font-size: 1.2em;">Application in MelodyMates</th>
+            <th style="padding: 15px; text-align: left; font-size: 1.3em;">CPT Requirement</th>
+            <th style="padding: 15px; text-align: left; font-size: 1.3em;">Application in MelodyMates</th>
         </tr>
 
-        <tr style="background-color: #fce4ec;">
-            <td style="padding: 12px; text-align: center; font-weight: bold;">Sequencing</td>
-            <td style="text-align: center; font-size: 1.5em;">✔️</td>
-            <td style="padding: 12px;">
-                Steps in my program follow a structured order:  
-                1️⃣ User preferences are inputted.  
-                2️⃣ Data is stored in the backend database.  
-                3️⃣ Preferences are displayed on the frontend.  
-                This ensures smooth functionality and prevents errors.
-            </td>
-        </tr>
-
-        <tr style="background-color: #ede7f6;">
-            <td style="padding: 12px; text-align: center; font-weight: bold;">Selection</td>
-            <td style="text-align: center; font-size: 1.5em;">✔️</td>
-            <td style="padding: 12px;">
-                Conditional statements filter recommendations based on user preferences.  
-                <br>
-                <img src="images/Screenshot 2025-03-03 at 1.05.48 PM.png" alt="Selection Code Snippet" style="width: 100%; margin-top: 10px; border-radius: 5px;">
-            </td>
-        </tr>
-
-        <tr style="background-color: #e8f5e9;">
-            <td style="padding: 12px; text-align: center; font-weight: bold;">Iteration</td>
-            <td style="text-align: center; font-size: 1.5em;">✔️</td>
-            <td style="padding: 12px;">
-                A loop processes user data to generate recommendations dynamically.
-                <br>
-                <img src="images/Screenshot 2025-03-03 at 1.09.23 PM.png" alt="Iteration For Loop Code" style="width: 100%; margin-top: 10px; border-radius: 5px;">
+        <tr style="background-color: #e3f2fd;">
+            <td style="padding: 15px; font-weight: bold;">✅ Lists</td>
+            <td style="padding: 15px;">
+                The backend database maintains a **list of user preferences**, tracking favorite artists dynamically.  
+                <br><br>
+                <img src="images/Screenshot 2025-03-03 at 1.02.13 PM.png" alt="Database List Example" style="width: 100%; border-radius: 5px;">
             </td>
         </tr>
 
         <tr style="background-color: #fff3e0;">
-            <td style="padding: 12px; text-align: center; font-weight: bold;">Lists</td>
-            <td style="text-align: center; font-size: 1.5em;">✔️</td>
-            <td style="padding: 12px;">
-                The backend database stores user preferences in structured lists:  
-                - <strong>user_preferences</strong>: Stores favorite artists.  
-                - <strong>trending_artists</strong>: Keeps track of popular artists.  
-                - <strong>recommendations</strong>: Stores dynamically generated suggestions.  
-                <br>
-                <img src="images/Screenshot 2025-03-03 at 1.02.13 PM.png" alt="Backend Lists Data Table" style="width: 100%; margin-top: 10px; border-radius: 5px;">
+            <td style="padding: 15px; font-weight: bold;">✅ Dictionary</td>
+            <td style="padding: 15px;">
+                The system uses **dictionaries** to store artist details, allowing for efficient retrieval and personalized recommendations.
             </td>
         </tr>
 
-        <tr style="background-color: #ede7f6;">
-            <td style="padding: 12px; text-align: center; font-weight: bold;">Dictionary</td>
-            <td style="text-align: center; font-size: 1.5em;">✔️</td>
-            <td style="padding: 12px;">
-                User data is stored in a dictionary format for efficient access and retrieval:  
-                <br><strong>user_data = {"name": "John", "preferences": ["Artist1", "Artist2", "Artist3"]}</strong>.  
-                This structure allows for quick updates and efficient recommendation generation.
+        <tr style="background-color: #e8f5e9;">
+            <td style="padding: 15px; font-weight: bold;">✅ Sequencing, Selection, & Iteration</td>
+            <td style="padding: 15px;">
+                <strong>Sequencing:</strong> The recommendation process follows a logical order, retrieving user data, applying filters, and returning results.
+                <br><br>
+                <strong>Selection:</strong> Conditional statements determine if an artist matches user preferences before adding them to recommendations.
+                <br>
+                <img src="images/Screenshot 2025-03-03 at 1.05.48 PM.png" alt="Selection Example" style="width: 100%; border-radius: 5px;">
+                <br><br>
+                <strong>Iteration:</strong> A **for-loop** iterates through the list of user preferences to generate personalized suggestions.
+                <br>
+                <img src="images/Screenshot 2025-03-03 at 1.09.23 PM.png" alt="Iteration Example" style="width: 100%; border-radius: 5px;">
             </td>
         </tr>
+
     </table>
 
     <p class="analysis" style="margin-top: 20px; font-size: 1.1em; text-align: center;">
-        By implementing these computing principles, MelodyMates ensures structured data handling, efficient decision-making, and a smooth user experience.
+        By integrating these CPT requirements, my feature effectively processes user data, maintains structured lists, applies algorithmic logic, and delivers a dynamic, interactive experience.
     </p>
 </div>
 
@@ -134,6 +110,57 @@ search_exclude: true
 
 <hr style="border: 3px solid black;">
 
+<div class="frq-section" style="background-color: #eef7ff; padding: 25px; border-radius: 12px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+    <h2 style="text-align: center; color: #0d47a1; font-size: 2.2em; font-weight: bold; margin-bottom: 15px;">
+        Understanding FRQ Language in MelodyMates
+    </h2>
+    
+    <p style="font-size: 1.2em; text-align: center; margin-bottom: 20px;">
+        The format requires precise, structured responses to programming problems. My website, MelodyMates, reflects these concepts through well-defined <b>algorithms</b>, efficient data structures like <b>lists</b> and other <b>collections</b>, and logical program behavior with clear <b>parameters</b> for functions.
+    </p>
+    
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+        <div class="frq-card" style="background: white; padding: 20px; border-radius: 10px; width: 45%; box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #0d47a1;">Calling Functions</h3>
+            <p>MelodyMates follows the concept of <b>calling functions</b> by organizing functionalities into reusable methods with clear <b>parameters</b>, ensuring modular and maintainable code.</p>
+        </div>
+        
+        <div class="frq-card" style="background: white; padding: 20px; border-radius: 10px; width: 45%; box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #0d47a1;">Program Complexity</h3>
+            <p>Data retrieval and processing in MelodyMates is structured to minimize redundant operations, following <b>efficiency principles</b> in <b>algorithms</b> and <b>program complexity</b>.</p>
+        </div>
+        
+        <div class="frq-card" style="background: white; padding: 20px; border-radius: 10px; width: 45%; box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #0d47a1;">State & Behavior</h3>
+            <p>MelodyMates maintains user preferences using structured <b>lists</b> and other <b>collections</b>, ensuring that the <b>state</b> of each session aligns with expected user interactions, including <b>input from the user</b>.</p>
+        </div>
+        
+        <div class="frq-card" style="background: white; padding: 20px; border-radius: 10px; width: 45%; box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #0d47a1;">Preconditions & Postconditions</h3>
+            <p>Each function in MelodyMates is written with clear <b>preconditions</b> and <b>postconditions</b>, ensuring data integrity and predictable outputs when <b>input from a device</b>, <b>online data stream</b>, or <b>file</b> is processed.</p>
+        </div>
+    </div>
+    
+    <p style="margin-top: 20px; font-size: 1.1em; text-align: center;">
+        Understanding the <b>language</b> is essential for structured programming. MelodyMates integrates these principles to maintain clarity, efficiency, and logical flow throughout its codebase, following best practices for <b>algorithms</b> and program design.
+    </p>
+    
+    <div style="margin-top: 40px; font-size: 1.1em; text-align: left;">
+        <h3 style="color: #0d47a1;">Super Easy Definitions of Terms Used:</h3>
+        <ul>
+            <li><b>Calling Functions:</b> Using a function in your program to perform a task. Functions are written to be reusable to avoid repeating code.</li>
+            <li><b>Parameters:</b> Values you provide to a function to customize what it does or how it works.</li>
+            <li><b>List:</b> A collection of items that can be ordered and accessed by position, often used for storing and managing data.</li>
+            <li><b>Other Types of Collection:</b> Other data structures used to store multiple items, such as arrays, sets, or maps, which help organize and manipulate data efficiently.</li>
+            <li><b>Program Complexity:</b> How complicated or efficient a program is, based on factors like how much time or memory it uses.</li>
+            <li><b>Input from One of the Following:</b> The data that your program receives from different sources like the user, a device, an online data stream, or a file.</li>
+            <li><b>Algorithms:</b> Step-by-step instructions for solving a problem or performing a task, which is central to how a program works.</li>
+        </ul>
+    </div>
+</div>
+
+
+<hr style="border: 3px solid black;">
 
 <h1>Night at the Museum</h1>
 
