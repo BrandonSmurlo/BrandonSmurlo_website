@@ -40,7 +40,7 @@ search_exclude: true
         <tr style="background-color: #e3f2fd;">
             <td style="padding: 15px; font-weight: bold;">✅ Lists</td>
             <td style="padding: 15px;">
-                The backend database maintains a **list of user preferences**, tracking favorite artists dynamically.  
+                The backend database maintains a list of user preferences, tracking favorite artists dynamically.  
                 <br><br>
                 <img src="images/Screenshot 2025-03-03 at 1.02.13 PM.png" alt="Database List Example" style="width: 100%; border-radius: 5px;">
             </td>
@@ -146,7 +146,7 @@ search_exclude: true
     </p>
     
     <div style="margin-top: 40px; font-size: 1.1em; text-align: left;">
-        <h3 style="color: #0d47a1;">Super Easy Definitions of Terms Used:</h3>
+        <h3 style="color: #0d47a1;">Definitions of Terms Used:</h3>
         <ul>
             <li><b>Calling Functions:</b> Using a function in your program to perform a task. Functions are written to be reusable to avoid repeating code.</li>
             <li><b>Parameters:</b> Values you provide to a function to customize what it does or how it works.</li>
@@ -159,6 +159,94 @@ search_exclude: true
     </div>
 </div>
 
+<hr style="border: 3px solid black;">
+
+<div class="ap-exam-application" style="background-color: #f0f4f8; padding: 30px; border-radius: 15px; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);">
+    <h2 style="text-align: center; color: #0b3d91; font-size: 2.5em; font-weight: bold; margin-bottom: 20px;">
+        AP Exam Application
+    </h2>
+
+    <div class="concepts-container" style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
+        <!-- Concept 1 -->
+        <div class="concept-card" style="background: #fff; padding: 25px; border-radius: 12px; width: 45%; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);">
+            <h3 style="color: #117a8b; font-size: 1.8em;"> Algorithm Design</h3>
+            <ul style="font-size: 1.2em; list-style-type: square; padding-left: 20px;">
+                <li><strong>Efficiency:</strong> Apply time and space complexity principles to choose the optimal algorithm.</li>
+                <li><strong>Modularization:</strong> Break down large problems into smaller reusable functions for better clarity and maintainability.</li>
+                <li><strong>Recursion:</strong> Use recursive solutions where applicable, as they are a common topic on the AP exam.</li>
+            </ul>
+        </div>
+
+        <!-- Concept 2 -->
+        <div class="concept-card" style="background: #fff; padding: 25px; border-radius: 12px; width: 45%; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);">
+            <h3 style="color: #117a8b; font-size: 1.8em;"> Data Structures</h3>
+            <ul style="font-size: 1.2em; list-style-type: square; padding-left: 20px;">
+                <li><strong>Lists & Arrays:</strong> Store and manipulate ordered collections of data with efficient indexing.</li>
+                <li><strong>Dictionaries:</strong> Use hashmaps for fast lookup and retrieval of data based on unique keys.</li>
+                <li><strong>Iterators:</strong> Efficiently traverse through lists and arrays with loops for dynamic data processing.</li>
+            </ul>
+        </div>
+
+        <!-- Concept 3 -->
+        <div class="concept-card" style="background: #fff; padding: 25px; border-radius: 12px; width: 45%; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);">
+            <h3 style="color: #117a8b; font-size: 1.8em;"> Object-Oriented Programming</h3>
+            <ul style="font-size: 1.2em; list-style-type: square; padding-left: 20px;">
+                <li><strong>Classes & Objects:</strong> Organize code using classes for better structure, encapsulation, and reusability.</li>
+                <li><strong>Inheritance:</strong> Create hierarchical relationships between classes for code reuse and better design.</li>
+                <li><strong>Polymorphism:</strong> Use method overriding to create flexible and extensible programs.</li>
+            </ul>
+        </div>
+
+        <!-- Concept 4 -->
+        <div class="concept-card" style="background: #fff; padding: 25px; border-radius: 12px; width: 45%; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);">
+            <h3 style="color: #117a8b; font-size: 1.8em;"> Problem Solving Techniques</h3>
+            <ul style="font-size: 1.2em; list-style-type: square; padding-left: 20px;">
+                <li><strong>Selection:</strong> Use conditional statements to control the flow based on decision-making criteria.</li>
+                <li><strong>Iteration:</strong> Loop through data structures to apply logic repeatedly for dynamic solutions.</li>
+                <li><strong>Preconditions & Postconditions:</strong> Establish clear expectations for functions to maintain program correctness.</li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+
+<hr style="border: 3px solid black;">
+
+<!-- Blog Section: Feedback from Ms. Pataki -->
+<div style="margin: 40px auto; width: 80%; background-color: #fff3cd; padding: 20px; border-radius: 15px; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); text-align: center;">
+    
+    <h2 style="color: #856404; font-size: 2em; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);">Feedback & Improvements</h2>
+    
+    <p style="color: #333; font-size: 1.2em; margin-bottom: 20px;">
+        During our website review with <strong>Ms. Pataki</strong>, we presented a brief rundown of our website’s features, showcasing the different functionalities we implemented.
+    </p>
+    
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+
+        <!-- Feedback Received -->
+        <div style="width: 45%; background-color: #f8d7da; padding: 15px; border-radius: 12px; box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #721c24;">Feedback Given</h3>
+            <p style="color: #721c24; font-size: 1.1em;">
+                Ms. Pataki suggested an improvement for our <strong>Artist Recommendation</strong> feature—allowing users to edit their favorite artists after making a submission.
+            </p>
+        </div>
+
+        <!-- Action Taken -->
+        <div style="width: 45%; background-color: #d4edda; padding: 15px; border-radius: 12px; box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #155724;"> Action Taken</h3>
+            <p style="color: #155724; font-size: 1.1em;">
+                Based on her feedback, we <strong>updated the feature</strong> to allow users to modify their favorite artists, improving usability and user experience.
+            </p>
+        </div>
+
+    </div>
+
+    <p style="margin-top: 20px; color: #333; font-size: 1.2em;">
+        This change ensures that users have more control over their preferences, making the feature more dynamic and useful!
+    </p>
+
+</div>
 
 <hr style="border: 3px solid black;">
 
@@ -464,42 +552,6 @@ search_exclude: true
 
 <hr style="border: 3px solid black;">
 
-<!-- Blog Section: Feedback from Ms. Pataki -->
-<div style="margin: 40px auto; width: 80%; background-color: #fff3cd; padding: 20px; border-radius: 15px; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); text-align: center;">
-    
-    <h2 style="color: #856404; font-size: 2em; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);">Feedback & Improvements</h2>
-    
-    <p style="color: #333; font-size: 1.2em; margin-bottom: 20px;">
-        During our website review with <strong>Ms. Pataki</strong>, we presented a brief rundown of our website’s features, showcasing the different functionalities we implemented.
-    </p>
-    
-    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
-
-        <!-- Feedback Received -->
-        <div style="width: 45%; background-color: #f8d7da; padding: 15px; border-radius: 12px; box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);">
-            <h3 style="color: #721c24;">🔎 Feedback Given</h3>
-            <p style="color: #721c24; font-size: 1.1em;">
-                Ms. Pataki suggested an improvement for our <strong>Artist Recommendation</strong> feature—allowing users to edit their favorite artists after making a submission.
-            </p>
-        </div>
-
-        <!-- Action Taken -->
-        <div style="width: 45%; background-color: #d4edda; padding: 15px; border-radius: 12px; box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);">
-            <h3 style="color: #155724;">✅ Action Taken</h3>
-            <p style="color: #155724; font-size: 1.1em;">
-                Based on her feedback, we <strong>updated the feature</strong> to allow users to modify their favorite artists, improving usability and user experience.
-            </p>
-        </div>
-
-    </div>
-
-    <p style="margin-top: 20px; color: #333; font-size: 1.2em;">
-        This change ensures that users have more control over their preferences, making the feature more dynamic and useful!
-    </p>
-
-</div>
-
-<hr style="border: 3px solid black;">
 
 <h1 style="text-align: center; font-size: 2.5em; color: #264653;">Future Pathways in Computer Science & Beyond</h1>
 
