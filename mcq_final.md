@@ -231,11 +231,208 @@ for song in user_favorites:
     </div>
 
     <div style="background-color: #e7f9e7; padding: 20px; border-radius: 10px;">
-        <h2 style="color: #56a056; font-weight: bold;">🚀 My Commitment Moving Forward</h2>
+        <h2 style="color: #56a056; font-weight: bold;"> My Commitment Moving Forward</h2>
         <p>I have areas to improve, like developing procedures and understanding the digital divide. I'll focus on those topics by practicing more MCQs and using College Board resources. By studying consistently and learning from my mistakes, I’ll gradually get better.</p>
     </div>
 
 </section>
+
+<hr style="border: 3px solid black;">
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Quiz Reflection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .summary-box {
+            background-color: #d1ecf1;
+            padding: 15px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 15px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        .question-box {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .question-header {
+            font-size: 1.5em;
+            color: #6c757d;
+            margin-bottom: 10px;
+        }
+        .analysis {
+            color: #333;
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        .right-answer {
+            color: #155724;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .skills {
+            color: #721c24;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>MCQ Quiz Reflection</h1>
+    <p>Review of my recent quiz performance, areas of improvement, and key takeaways.</p>
+
+    <div class="summary-box">
+        <h2 style="color: #117a8b;">Performance Summary</h2>
+        <p><strong>Topic 1.4 (Identifying & Correcting Errors):</strong> 57% Correct</p>
+        <p><strong>Topic 2.1 (Binary Numbers):</strong> 60% Correct</p>
+        <p><strong>Topic 3.12 (Calling Procedures):</strong> 60% Correct</p>
+        <p><strong>Topic 3.13 (Developing Procedures):</strong> 0% Correct</p>
+        <p><strong>Topic 3.15 (Random Values):</strong> 50% Correct</p>
+        <p><strong>Topic 3.17 (Algorithmic Efficiency):</strong> 50% Correct</p>
+        <p><strong>Topic 4.1 (The Internet):</strong> 50% Correct</p>
+        <p><strong>Topic 5.2 (Digital Divide):</strong> 0% Correct</p>
+        <p><strong>Topic 5.6 (Safe Computing):</strong> 67% Correct</p>
+        <p>All other topics not listed here were either <strong>100% correct</strong> or <strong>N/A.</strong></p>
+    </div>
+
+    <h2 style="margin-top: 30px;">Incorrect Answers & Analysis</h2>
+   
+    <!-- Question Analysis -->
+    <div class="question-box">
+        <div class="question-header">Question 12 (Topic 2.B)</div>
+        <p class="analysis">I chose the wrong answer because I may have misunderstood binary representation concepts. The question likely required an understanding of bitwise operations or conversions.</p>
+        <p class="right-answer">Correct Answer: C</p>
+        <p class="skills">Skill to Improve: Binary representation and manipulation.</p>
+    </div>
+
+    <div class="question-box">
+        <div class="question-header">Question 17 (Topic 3.C)</div>
+        <p class="analysis">This question involved procedural abstraction. I may have misinterpreted how functions or procedures should be structured in a program.</p>
+        <p class="right-answer">Correct Answer: D</p>
+        <p class="skills">Skill to Improve: Understanding and writing reusable procedures.</p>
+    </div>
+
+    <div class="question-box">
+        <div class="question-header">Question 22 (Topic 2.B)</div>
+        <p class="analysis">This question tested binary number manipulation. I may have overlooked how binary addition or logic gates operate.</p>
+        <p class="right-answer">Correct Answer: D</p>
+        <p class="skills">Skill to Improve: Binary number operations.</p>
+    </div>
+
+    <div class="question-box">
+        <div class="question-header">Question 23 (Topic 1.D)</div>
+        <p class="analysis">I may have misunderstood debugging techniques or the identification of logical errors in a program.</p>
+        <p class="right-answer">Correct Answer: B</p>
+        <p class="skills">Skill to Improve: Debugging and troubleshooting strategies.</p>
+    </div>
+
+    <div class="question-box">
+        <div class="question-header">Question 25 (Topic 5.A)</div>
+        <p class="analysis">This question was likely about computing innovations and ethical considerations. My misunderstanding may have been in evaluating the impact of digital technologies.</p>
+        <p class="right-answer">Correct Answer: C</p>
+        <p class="skills">Skill to Improve: Understanding ethical implications of computing.</p>
+    </div>
+
+    <div class="question-box">
+        <div class="question-header">Question 32 (Topic 3.B)</div>
+        <p class="analysis">This question involved algorithm development and procedural thinking. I may have struggled with structuring algorithms efficiently.</p>
+        <p class="right-answer">Correct Answer: D</p>
+        <p class="skills">Skill to Improve: Algorithm structuring and efficiency.</p>
+    </div>
+
+    <div class="question-box">
+        <div class="question-header">Question 35 (Topic 3.C)</div>
+        <p class="analysis">This question involved abstraction within programming. I may have struggled with recognizing when and how to use functions effectively.</p>
+        <p class="right-answer">Correct Answer: B</p>
+        <p class="skills">Skill to Improve: Using abstraction in programming.</p>
+    </div>
+
+    <div class="question-box">
+        <div class="question-header">Question 38 (Topic 5.A)</div>
+        <p class="analysis">The question tested computing ethics and digital rights. I might have misunderstood how certain technologies impact user privacy.</p>
+        <p class="right-answer">Correct Answer: B</p>
+        <p class="skills">Skill to Improve: Digital ethics and privacy concerns.</p>
+    </div>
+
+    <div class="question-box">
+        <div class="question-header">Question 48 (Topic 5.D)</div>
+        <p class="analysis">This question was about cybersecurity. I may have misunderstood how to protect sensitive data online.</p>
+        <p class="right-answer">Correct Answer: C</p>
+        <p class="skills">Skill to Improve: Safe computing practices.</p>
+    </div>
+
+<div class="question-box">
+    <div class="question-header">Question 54 (Topic 4.B)</div>
+    <p class="analysis">I did not correctly interpret the impact of data compression on storage and transmission efficiency. I need to review lossless vs. lossy compression and understand when each is appropriate.</p>
+    <p class="right-answer">Correct Answer: B</p>
+    <p class="skills">Skill to Improve: Data compression and its effects on file size and quality.</p>
+</div>
+
+<div class="question-box">
+    <div class="question-header">Question 56 (Topic 3.D)</div>
+    <p class="analysis">I failed to recognize how algorithm efficiency is affected by different data structures. I need to practice analyzing the time complexity of algorithms and understanding how data structures impact performance.</p>
+    <p class="right-answer">Correct Answer: D</p>
+    <p class="skills">Skill to Improve: Algorithm efficiency and data structure selection.</p>
+</div>
+
+<div class="question-box">
+    <div class="question-header">Question 60 (Topic 2.C)</div>
+    <p class="analysis">I misinterpreted the behavior of logical operations in conditional statements. I need to work on applying De Morgan’s laws and understanding how Boolean expressions function in programming.</p>
+    <p class="right-answer">Correct Answer: A</p>
+    <p class="skills">Skill to Improve: Boolean logic and conditional reasoning.</p>
+</div>
+
+<div class="question-box">
+    <div class="question-header">Question 61 (Topic 1.E)</div>
+    <p class="analysis">I struggled to recognize an off-by-one error in a loop structure. I need to improve my debugging skills by carefully tracing loop iterations and verifying index values.</p>
+    <p class="right-answer">Correct Answer: C</p>
+    <p class="skills">Skill to Improve: Debugging loops and preventing off-by-one errors.</p>
+</div>
+
+<div class="question-box">
+    <div class="question-header">Question 66 (Topic 5.B)</div>
+    <p class="analysis">I underestimated the impact of computing innovations on accessibility and the digital divide. I need to study real-world examples of how technology can both bridge and widen societal gaps.</p>
+    <p class="right-answer">Correct Answer: B</p>
+    <p class="skills">Skill to Improve: Understanding the societal impact of computing innovations.</p>
+</div>
+
+<div class="question-box">
+    <div class="question-header">Question 67 (Topic 3.F)</div>
+    <p class="analysis">I misunderstood the role of recursion in algorithm design. I need to practice tracing recursive function calls and understanding base cases and recursive steps.</p>
+    <p class="right-answer">Correct Answer: D</p>
+    <p class="skills">Skill to Improve: Recursion and its application in problem-solving.</p>
+</div>
+
+
+    <h2 style="color: #e74c3c; margin-top: 30px;">Applying These Learnings to the AP Exam</h2>
+    <p>Reflecting on this quiz, I realize that I need to focus more on procedural abstraction, algorithm development, and ethical considerations in computing. These are all essential skills for the AP Exam.</p>
+    <p>To improve, I will review practice problems related to these topics, study explanations of correct answers, and ensure I understand the underlying concepts. Strengthening these areas will help me be better prepared for the AP Exam and similar assessments in the future.</p>
+
+</body>
+</html>
 
 
 <hr style="border: 3px solid black;">
@@ -541,203 +738,6 @@ for song in user_favorites:
 <hr style="border: 3px solid black;">
 
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MCQ Quiz Reflection</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            margin: 20px;
-            text-align: center;
-        }
-        h1 {
-            color: #2c3e50;
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        p {
-            font-size: 1.2em;
-            color: #555;
-        }
-        .summary-box {
-            background-color: #d1ecf1;
-            padding: 15px;
-            margin: 20px auto;
-            width: 80%;
-            border-radius: 15px;
-            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-        }
-        .question-box {
-            width: 80%;
-            margin: 20px auto;
-            background-color: #fff;
-            padding: 15px;
-            border-radius: 12px;
-            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-            text-align: left;
-        }
-        .question-header {
-            font-size: 1.5em;
-            color: #6c757d;
-            margin-bottom: 10px;
-        }
-        .analysis {
-            color: #333;
-            font-size: 1.1em;
-            margin: 10px 0;
-        }
-        .right-answer {
-            color: #155724;
-            font-weight: bold;
-            font-size: 1.2em;
-        }
-        .skills {
-            color: #721c24;
-            font-weight: bold;
-            font-size: 1.1em;
-        }
-    </style>
-</head>
-<body>
-
-    <h1>MCQ Quiz Reflection</h1>
-    <p>Review of my recent quiz performance, areas of improvement, and key takeaways.</p>
-
-    <div class="summary-box">
-        <h2 style="color: #117a8b;">Performance Summary</h2>
-        <p><strong>Topic 1.4 (Identifying & Correcting Errors):</strong> 57% Correct</p>
-        <p><strong>Topic 2.1 (Binary Numbers):</strong> 60% Correct</p>
-        <p><strong>Topic 3.12 (Calling Procedures):</strong> 60% Correct</p>
-        <p><strong>Topic 3.13 (Developing Procedures):</strong> 0% Correct</p>
-        <p><strong>Topic 3.15 (Random Values):</strong> 50% Correct</p>
-        <p><strong>Topic 3.17 (Algorithmic Efficiency):</strong> 50% Correct</p>
-        <p><strong>Topic 4.1 (The Internet):</strong> 50% Correct</p>
-        <p><strong>Topic 5.2 (Digital Divide):</strong> 0% Correct</p>
-        <p><strong>Topic 5.6 (Safe Computing):</strong> 67% Correct</p>
-        <p>All other topics not listed here were either <strong>100% correct</strong> or <strong>N/A.</strong></p>
-    </div>
-
-    <h2 style="margin-top: 30px;">Incorrect Answers & Analysis</h2>
-   
-    <!-- Question Analysis -->
-    <div class="question-box">
-        <div class="question-header">Question 12 (Topic 2.B)</div>
-        <p class="analysis">I chose the wrong answer because I may have misunderstood binary representation concepts. The question likely required an understanding of bitwise operations or conversions.</p>
-        <p class="right-answer">Correct Answer: C</p>
-        <p class="skills">Skill to Improve: Binary representation and manipulation.</p>
-    </div>
-
-    <div class="question-box">
-        <div class="question-header">Question 17 (Topic 3.C)</div>
-        <p class="analysis">This question involved procedural abstraction. I may have misinterpreted how functions or procedures should be structured in a program.</p>
-        <p class="right-answer">Correct Answer: D</p>
-        <p class="skills">Skill to Improve: Understanding and writing reusable procedures.</p>
-    </div>
-
-    <div class="question-box">
-        <div class="question-header">Question 22 (Topic 2.B)</div>
-        <p class="analysis">This question tested binary number manipulation. I may have overlooked how binary addition or logic gates operate.</p>
-        <p class="right-answer">Correct Answer: D</p>
-        <p class="skills">Skill to Improve: Binary number operations.</p>
-    </div>
-
-    <div class="question-box">
-        <div class="question-header">Question 23 (Topic 1.D)</div>
-        <p class="analysis">I may have misunderstood debugging techniques or the identification of logical errors in a program.</p>
-        <p class="right-answer">Correct Answer: B</p>
-        <p class="skills">Skill to Improve: Debugging and troubleshooting strategies.</p>
-    </div>
-
-    <div class="question-box">
-        <div class="question-header">Question 25 (Topic 5.A)</div>
-        <p class="analysis">This question was likely about computing innovations and ethical considerations. My misunderstanding may have been in evaluating the impact of digital technologies.</p>
-        <p class="right-answer">Correct Answer: C</p>
-        <p class="skills">Skill to Improve: Understanding ethical implications of computing.</p>
-    </div>
-
-    <div class="question-box">
-        <div class="question-header">Question 32 (Topic 3.B)</div>
-        <p class="analysis">This question involved algorithm development and procedural thinking. I may have struggled with structuring algorithms efficiently.</p>
-        <p class="right-answer">Correct Answer: D</p>
-        <p class="skills">Skill to Improve: Algorithm structuring and efficiency.</p>
-    </div>
-
-    <div class="question-box">
-        <div class="question-header">Question 35 (Topic 3.C)</div>
-        <p class="analysis">This question involved abstraction within programming. I may have struggled with recognizing when and how to use functions effectively.</p>
-        <p class="right-answer">Correct Answer: B</p>
-        <p class="skills">Skill to Improve: Using abstraction in programming.</p>
-    </div>
-
-    <div class="question-box">
-        <div class="question-header">Question 38 (Topic 5.A)</div>
-        <p class="analysis">The question tested computing ethics and digital rights. I might have misunderstood how certain technologies impact user privacy.</p>
-        <p class="right-answer">Correct Answer: B</p>
-        <p class="skills">Skill to Improve: Digital ethics and privacy concerns.</p>
-    </div>
-
-    <div class="question-box">
-        <div class="question-header">Question 48 (Topic 5.D)</div>
-        <p class="analysis">This question was about cybersecurity. I may have misunderstood how to protect sensitive data online.</p>
-        <p class="right-answer">Correct Answer: C</p>
-        <p class="skills">Skill to Improve: Safe computing practices.</p>
-    </div>
-
-<div class="question-box">
-    <div class="question-header">Question 54 (Topic 4.B)</div>
-    <p class="analysis">I did not correctly interpret the impact of data compression on storage and transmission efficiency. I need to review lossless vs. lossy compression and understand when each is appropriate.</p>
-    <p class="right-answer">Correct Answer: B</p>
-    <p class="skills">Skill to Improve: Data compression and its effects on file size and quality.</p>
-</div>
-
-<div class="question-box">
-    <div class="question-header">Question 56 (Topic 3.D)</div>
-    <p class="analysis">I failed to recognize how algorithm efficiency is affected by different data structures. I need to practice analyzing the time complexity of algorithms and understanding how data structures impact performance.</p>
-    <p class="right-answer">Correct Answer: D</p>
-    <p class="skills">Skill to Improve: Algorithm efficiency and data structure selection.</p>
-</div>
-
-<div class="question-box">
-    <div class="question-header">Question 60 (Topic 2.C)</div>
-    <p class="analysis">I misinterpreted the behavior of logical operations in conditional statements. I need to work on applying De Morgan’s laws and understanding how Boolean expressions function in programming.</p>
-    <p class="right-answer">Correct Answer: A</p>
-    <p class="skills">Skill to Improve: Boolean logic and conditional reasoning.</p>
-</div>
-
-<div class="question-box">
-    <div class="question-header">Question 61 (Topic 1.E)</div>
-    <p class="analysis">I struggled to recognize an off-by-one error in a loop structure. I need to improve my debugging skills by carefully tracing loop iterations and verifying index values.</p>
-    <p class="right-answer">Correct Answer: C</p>
-    <p class="skills">Skill to Improve: Debugging loops and preventing off-by-one errors.</p>
-</div>
-
-<div class="question-box">
-    <div class="question-header">Question 66 (Topic 5.B)</div>
-    <p class="analysis">I underestimated the impact of computing innovations on accessibility and the digital divide. I need to study real-world examples of how technology can both bridge and widen societal gaps.</p>
-    <p class="right-answer">Correct Answer: B</p>
-    <p class="skills">Skill to Improve: Understanding the societal impact of computing innovations.</p>
-</div>
-
-<div class="question-box">
-    <div class="question-header">Question 67 (Topic 3.F)</div>
-    <p class="analysis">I misunderstood the role of recursion in algorithm design. I need to practice tracing recursive function calls and understanding base cases and recursive steps.</p>
-    <p class="right-answer">Correct Answer: D</p>
-    <p class="skills">Skill to Improve: Recursion and its application in problem-solving.</p>
-</div>
-
-
-    <h2 style="color: #e74c3c; margin-top: 30px;">Applying These Learnings to the AP Exam</h2>
-    <p>Reflecting on this quiz, I realize that I need to focus more on procedural abstraction, algorithm development, and ethical considerations in computing. These are all essential skills for the AP Exam.</p>
-    <p>To improve, I will review practice problems related to these topics, study explanations of correct answers, and ensure I understand the underlying concepts. Strengthening these areas will help me be better prepared for the AP Exam and similar assessments in the future.</p>
-
-</body>
-</html>
-
-
-<hr style="border: 3px solid black;">
 
 <h1>Strengths & Weaknesses</h1>
 
