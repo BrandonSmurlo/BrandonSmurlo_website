@@ -19,6 +19,224 @@ search_exclude: true
 
 </div>
 
+<hr style="border: 3px solid black;">
+
+<section style="font-family: 'Verdana', sans-serif; line-height: 1.6;">
+
+    <h1 style="text-align: center; font-size: 28px; background-color: #f9e7e7; color: #d95f5f; padding: 15px; border-radius: 10px; font-weight: bold;">
+        📌 AP CSP Personalized Project Reference (PPR) FRQ
+    </h1>
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="images/Screenshot 2025-03-10 at 5.08.17 PM.png" alt="Screenshot 1" style="width: 45%; border-radius: 10px;">
+    <img src="images/Screenshot 2025-03-10 at 5.08.32 PM.png" alt="Screenshot 2" style="width: 45%; border-radius: 10px;">
+</div>
+
+    <!-- Section 1 -->
+    <div style="background-color: #e7f3f9; padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+        <h2 style="color: #3b83a7; font-weight: bold;">✅ Part 1: Student-Developed Procedure</h2>
+        
+        <h3 style="color: #3b83a7; font-weight: bold;">Requirements:</h3>
+        <ul>
+            <li>A procedure must have a meaningful name and return type if necessary.</li>
+            <li>It should use parameters that modify its behavior.</li>
+            <li>It must implement sequencing, selection, and iteration.</li>
+        </ul>
+
+        <h3 style="color: #3b83a7; font-weight: bold;">🔹 Example: Adding a Favorite Artist/Song</h3>
+        <pre style="background-color: #232323; color: #ffffff; border: 1px solid #a2d9c2; padding: 10px; border-radius: 5px;">
+<code>
+class MusicPref:
+    def add_favorite(self, song_or_artist):
+        if song_or_artist not in self._favorites:
+            self._favorites.append(song_or_artist)
+            db.session.commit()
+            return True
+        return False
+</code>
+        </pre>
+
+        <h3 style="color: #3b83a7; font-weight: bold;">Explanation:</h3>
+        <ul>
+            <li><code>add_favorite</code> is a meaningful procedure name indicating its purpose.</li>
+            <li>The parameter <code>song_or_artist</code> makes the procedure dynamic and flexible.</li>
+            <li>Selection is demonstrated with <code>if song_or_artist not in self._favorites:</code>, ensuring no duplicates.</li>
+            <li>Sequencing is seen in the ordered steps: checking, appending, committing, and returning.</li>
+        </ul>
+
+        <h3 style="color: #3b83a7; font-weight: bold;">What the Code Does:</h3>
+        <ul>
+            <li>Checks if the input is already in the user's favorites list.</li>
+            <li>Adds the input to the favorites if it's not already present.</li>
+            <li>Saves changes to the database and confirms success with a return value.</li>
+        </ul>
+
+        <h3 style="color: #3b83a7; font-weight: bold;">Why this is important:</h3>
+        <ul>
+            <li>Shows how to create a flexible and reusable procedure.</li>
+            <li>Demonstrates integrating user personalization into an application.</li>
+            <li>Uses logical structures (selection, sequencing) to ensure correctness.</li>
+        </ul>
+    </div>
+
+    <!-- Section 2 -->
+    <div style="background-color: #f9f6e7; padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+        <h2 style="color: #d1a745; font-weight: bold;">✅ Part 2: Procedure Call in the Program</h2>
+        
+        <h3 style="color: #d1a745; font-weight: bold;">Requirements:</h3>
+        <ul>
+            <li>Must demonstrate where the student-developed procedure is used.</li>
+            <li>Should show how the procedure interacts with other parts of the program.</li>
+        </ul>
+
+        <h3 style="color: #d1a745; font-weight: bold;">🔹 Example: Calling the add_favorite Method</h3>
+        <pre style="background-color: #232323; color: #ffffff; border: 1px solid #d4c89d; padding: 10px; border-radius: 5px;">
+<code>
+user = MusicPref.query.filter_by(uid="brandonsmurlo_08").first()
+user.add_favorite("Drake")
+</code>
+        </pre>
+
+        <h3 style="color: #d1a745; font-weight: bold;">Explanation:</h3>
+        <ul>
+            <li><code>filter_by(uid="brandonsmurlo_08").first()</code> retrieves a user with a unique ID.</li>
+            <li>The procedure <code>add_favorite("Drake")</code> adds "Drake" to the user's favorites.</li>
+            <li>Demonstrates how the procedure interacts with the database and other program parts.</li>
+        </ul>
+
+        <h3 style="color: #d1a745; font-weight: bold;">What the Code Does:</h3>
+        <ul>
+            <li>Fetches a user's data from the database.</li>
+            <li>Uses the procedure to update the user's favorites list.</li>
+            <li>Illustrates integration of the procedure into a real-world scenario.</li>
+        </ul>
+
+        <h3 style="color: #d1a745; font-weight: bold;">Why this is important:</h3>
+        <ul>
+            <li>Shows how to use and test a custom procedure within a broader system.</li>
+            <li>Highlights the importance of database interaction and data persistence.</li>
+            <li>Ensures procedures work as intended when combined with other code.</li>
+        </ul>
+    </div>
+
+    <!-- Section 3 -->
+    <div style="background-color: #efe7f9; padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+        <h2 style="color: #7b4da6; font-weight: bold;">✅ Part 3: List Usage for Managing Complexity</h2>
+
+        <h3 style="color: #7b4da6; font-weight: bold;">Requirements:</h3>
+        <ul>
+            <li>The first snippet must show how data is stored in a list.</li>
+            <li>The second snippet must demonstrate retrieving and using the stored data.</li>
+        </ul>
+
+        <h3 style="color: #7b4da6; font-weight: bold;">🔹 Example: Storing Data in a List</h3>
+        <pre style="background-color: #232323; color: #ffffff; border: 1px solid #c5a6d9; padding: 10px; border-radius: 5px;">
+<code>
+favorites = db.Column(db.JSON, nullable=True)
+</code>
+        </pre>
+
+        <h3 style="color: #7b4da6; font-weight: bold;">Explanation:</h3>
+        <ul>
+            <li><code>favorites = db.Column(db.JSON, nullable=True)</code> defines a database column for storing JSON data.</li>
+            <li>JSON format allows efficient storage of multiple values in a single field.</li>
+        </ul>
+
+        <h3 style="color: #7b4da6; font-weight: bold;">🔹 Example: Retrieving and Using Stored Preferences</h3>
+        <pre style="background-color: #232323; color: #ffffff; border: 1px solid #c5a6d9; padding: 10px; border-radius: 5px;">
+<code>
+user_favorites = user.favorites
+for song in user_favorites:
+    print(song)
+</code>
+        </pre>
+
+        <h3 style="color: #7b4da6; font-weight: bold;">Explanation:</h3>
+        <ul>
+            <li><code>user_favorites = user.favorites</code> retrieves the stored list of favorite items.</li>
+            <li>The loop <code>for song in user_favorites:</code> iterates through the list.</li>
+            <li><code>print(song)</code> displays each item in the list.</li>
+        </ul>
+
+        <h3 style="color: #7b4da6; font-weight: bold;">What the Code Does:</h3>
+        <ul>
+            <li>Defines how favorites are stored as a JSON list in the database.</li>
+            <li>Retrieves and iterates through the stored list to access individual items.</li>
+            <li>Illustrates list usage for managing and accessing complex data efficiently.</li>
+        </ul>
+
+        <h3 style="color: #7b4da6; font-weight: bold;">Why this is important:</h3>
+        <ul>
+            <li>Shows how to store structured data (lists) in a database efficiently.</li>
+            <li>Illustrates the importance of iteration for processing stored data.</li>
+            <li>Highlights practical use of lists for user-specific data management.</li>
+        </ul>
+    </div>
+
+<div style="background-color: #e7f9e7; padding: 20px; border-radius: 10px;">
+        <h2 style="color: #56a056;">🎯 Summary & Key Takeaways</h2>
+        <ul>
+            <li>✅ Procedures make the code modular, reusable, and easier to debug.</li>
+            <li>✅ Function calls show how different parts of the program interact.</li>
+            <li>✅ Lists help manage and store user data efficiently.</li>
+            <li>✅ Implementing selection and iteration improves functionality.</li>
+        </ul>
+    </div>
+    
+</section>    
+
+<hr style="border: 3px solid black;">
+
+<section style="font-family: 'Verdana', sans-serif; line-height: 1.6; margin-top: 20px;">
+
+    <h1 style="text-align: center; font-size: 28px; background-color: #e7f3f9; color: #3b83a7; padding: 15px; border-radius: 10px; font-weight: bold;">
+        📘 MCQ Quiz Reflection & Improvement Plan
+    </h1>
+
+    <div style="background-color: #f9f6e7; padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+        <h2 style="color: #d1a745; font-weight: bold;">Reflection on My MCQ Performance</h2>
+        
+
+        <div style="text-align: center; margin: 20px 0;">
+            <img src="images/Screenshot 2025-03-10 at 5.18.13 PM.png" alt="MCQ Performance Statistics" style="width: 80%; border-radius: 10px; border: 2px solid #d1a745;">
+            <p style="font-size: 14px; color: #555;">Performance summary for the MCQ practice quiz</p>
+        </div>
+
+        <h3 style="color: #d1a745; font-weight: bold;">Key Takeaways:</h3>
+        <ul>
+            <li>I excelled in topics like <strong>Safe Computing</strong> and showed strong knowledge in certain foundational concepts.</li>
+            <li>However, I struggled with topics such as <strong>Developing Procedures</strong>, <strong>Digital Divide</strong>, and <strong>Algorithmic Efficiency</strong>.</li>
+            <li>This performance highlighted the need to focus on <strong>procedural abstraction</strong>, understanding <strong>ethical computing topics</strong>, and building fluency in algorithm development.</li>
+        </ul>
+    </div>
+
+    <div style="background-color: #e7f3f9; padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+        <h2 style="color: #3b83a7; font-weight: bold;">📈 My Improvement Plan</h2>
+       
+
+        <h3 style="color: #3b83a7; font-weight: bold;">What I Need to Study:</h3>
+        <ul>
+            <li><strong>Procedural Abstraction:</strong> I need to strengthen my understanding of how procedures are developed and implemented. I'll review resources from the AP CSP College Board's Course and Exam Description (CED).</li>
+            <li><strong>Ethical Computing & Digital Divide:</strong> I’ll focus on ethical considerations, including safe and inclusive computing practices, as outlined in the CPT standards.</li>
+            <li><strong>Algorithm Development & Efficiency:</strong> I'll practice problems related to algorithmic efficiency and gain fluency in analyzing different approaches.</li>
+        </ul>
+
+        <h3 style="color: #3b83a7; font-weight: bold;">How I’ll Improve:</h3>
+        <ul>
+            <li>Practice additional MCQs focused on my weaker topics, ensuring I understand the explanations for each answer.</li>
+            <li>Work through the College Board’s AP CSP <strong>Classroom Resources</strong> and utilize their free practice materials.</li>
+            <li>Review AP CSP study guides and join online study groups to reinforce my learning.</li>
+            <li>Break down and study previous CPT tasks to better understand how to organize and explain my code during the exam.</li>
+        </ul>
+    </div>
+
+    <div style="background-color: #e7f9e7; padding: 20px; border-radius: 10px;">
+        <h2 style="color: #56a056; font-weight: bold;">🚀 My Commitment Moving Forward</h2>
+        <p>I have areas to improve, like developing procedures and understanding the digital divide. I'll focus on those topics by practicing more MCQs and using College Board resources. By studying consistently and learning from my mistakes, I’ll gradually get better.</p>
+    </div>
+
+</section>
+
 
 <hr style="border: 3px solid black;">
 
@@ -49,7 +267,7 @@ search_exclude: true
         <tr style="background-color: #fff3e0;">
             <td style="padding: 15px; font-weight: bold;">✅ Dictionary</td>
             <td style="padding: 15px;">
-                The system uses **dictionaries** to store artist details, allowing for efficient retrieval and personalized recommendations.
+                The system uses <b>dictionaries</b> to store artist details, allowing for efficient retrieval and personalized recommendations.
             </td>
         </tr>
 
@@ -62,7 +280,7 @@ search_exclude: true
                 <br>
                 <img src="images/Screenshot 2025-03-03 at 1.05.48 PM.png" alt="Selection Example" style="width: 100%; border-radius: 5px;">
                 <br><br>
-                <strong>Iteration:</strong> A **for-loop** iterates through the list of user preferences to generate personalized suggestions.
+                <strong>Iteration:</strong> A <b>for-loop</b> iterates through the list of user preferences to generate personalized suggestions.
                 <br>
                 <img src="images/Screenshot 2025-03-03 at 1.09.23 PM.png" alt="Iteration Example" style="width: 100%; border-radius: 5px;">
             </td>
