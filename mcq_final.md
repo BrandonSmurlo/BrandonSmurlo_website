@@ -1031,3 +1031,11 @@ for song in user_favorites:
 
 <hr style="border: 3px solid black;">
 
+
+<script src="https://utteranc.es/client.js"
+        repo="BrandonSmurlo/BrandonSmurlo_website"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
