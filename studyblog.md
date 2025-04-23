@@ -134,12 +134,11 @@
     </section>
 
     <section>
-      <h2>5. Final Wrap-Up</h2>
+      <h2>5. Future Plan</h2>
       <ul>
-        <li>This blog summarizes my full exam prep process</li>
-        <li>I used active review methods, spaced repetition, and reflection</li>
-        <li>Consistent practice, handwritten notes, and digital tools made a huge difference</li>
-        <li>Feel ready and confident for the AP CSP exam</li>
+        <li>I plan to continute my studying of the Khan Academy course</li>
+        <li>Review MCQ questions, especially the ones I got incorrect</li>
+        <li>Consistent practice, handwritten notes, and digital tools</li>
       </ul>
     </section>
 
