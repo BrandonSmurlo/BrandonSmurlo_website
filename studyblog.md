@@ -139,6 +139,7 @@
         <li>I plan to continute my studying of the Khan Academy course</li>
         <li>Review MCQ questions, especially the ones I got incorrect</li>
         <li>Consistent practice, handwritten notes, and digital tools</li>
+        <li>Study homework hacks/student lessons</li>
       </ul>
     </section>
 
