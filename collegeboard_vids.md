@@ -215,7 +215,7 @@ As the assistant scrum master of my group, I helped those in my group to underst
     </ul>
 
     <div class="section-spacing">
-        <img src="images/Screenshot 2025-02-03 at 9.11.38 PM.png" alt="Network Diagram" class="image">
+      eeeeeeeee
     </div>
 
     <ul>
