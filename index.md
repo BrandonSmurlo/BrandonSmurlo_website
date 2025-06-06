@@ -74,7 +74,7 @@ hide: true
 
 <div class="section">
     <p>Tri 3 Final</p>
-    <button class="custom-button" onclick="location.href='tri3final.html'">vCard</button>
+    <button class="custom-button" onclick="location.href='tri3final.html'">Tri 3 Final</button>
 </div>
 
 <!-- Placeholder link for creating the mcq_blog.html file -->
