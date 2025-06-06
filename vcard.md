@@ -5,7 +5,6 @@ search_exclude: true
 comments: True
 ---
 
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -23,7 +22,7 @@ comments: True
       display: flex;
       gap: 2rem;
       background-color: transparent;
-      max-width: 1000px;
+      max-width: 1100px;
       width: 100%;
       margin: 0 auto;
     }
@@ -39,7 +38,7 @@ comments: True
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
     .left-card {
-      width: 500px;
+      width: 600px;
       align-items: flex-start;
       word-wrap: break-word;
       overflow-wrap: break-word;
@@ -60,13 +59,21 @@ comments: True
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      color: #004d40;
-      text-decoration: none;
+      color: #1a0dab;
+      text-decoration: underline;
       font-weight: 500;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
       max-width: 100%;
+      transition: color 0.3s ease, text-decoration-thickness 0.3s ease;
+      text-decoration-thickness: 1px;
+    }
+    .links a:hover,
+    .links a:focus {
+      color: #0b0080;
+      text-decoration-thickness: 2px;
+      cursor: pointer;
     }
     .download {
       margin-top: 1.5rem;
@@ -81,8 +88,8 @@ comments: True
       align-self: center;
     }
     .qr-code {
-      width: 160px;
-      height: 160px;
+      width: 240px;
+      height: auto;
       margin-top: 1rem;
     }
   </style>
@@ -94,19 +101,19 @@ comments: True
       <h1>Brandon Smurlo</h1>
       <div class="links">
         <a href="mailto:brandonsmurlo11@gmail.com" target="_blank" rel="noopener noreferrer">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" width="20" alt="Email Icon">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" width="20" alt="Email Icon" />
           brandonsmurlo11@gmail.com
         </a>
         <a href="https://tvick22.github.io/ShotSpot/" target="_blank" rel="noopener noreferrer">
-          <img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" width="20" alt="Website Icon">
-          Website
+          <img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" width="20" alt="Website Icon" />
+          Project Website
         </a>
         <a href="https://www.linkedin.com/in/brandon-smurlo-550679365/" target="_blank" rel="noopener noreferrer">
-          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="20" alt="LinkedIn Icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="20" alt="LinkedIn Icon" />
           LinkedIn
         </a>
         <a href="https://github.com/BrandonSmurlo/BrandonSmurlo_website" target="_blank" rel="noopener noreferrer">
-          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20" alt="GitHub Icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20" alt="GitHub Icon" />
           GitHub
         </a>
       </div>
@@ -115,7 +122,7 @@ comments: True
 
     <!-- Right Card -->
     <div class="card">
-      <img class="qr-code" src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https://yourdomain.com/ocs.vcf" alt="QR Code" />
+      <img class="qr-code" src="images/frame.png" alt="QR Code" />
     </div>
   </div>
 </body>
