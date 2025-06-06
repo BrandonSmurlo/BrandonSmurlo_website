@@ -57,8 +57,14 @@ comments: True
 
   <!-- VCard -->
   <div style="background-color: #f2f2f2; padding: 25px; border-radius: 12px; margin-bottom: 25px; border: 1px solid #ccc;">
-    <h2 style="color: #444; font-weight: bold;">Contact Card</h2>
+    <h2 style="color: #444; font-weight: bold;">Contact Card (+ LinkedIn Post)</h2>
     <p><a href="https://brandonsmurlo.github.io/BrandonSmurlo_website/vcard.html" target="_blank" style="color: #444; text-decoration: underline;">🔗 View My vCard</a></p>
+
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:7336784378057916418/" target="_blank" rel="noopener noreferrer">
+  LinkedIn post from N@TM!
+</a>
+
+
   </div>
 
   <!-- Certificates -->
