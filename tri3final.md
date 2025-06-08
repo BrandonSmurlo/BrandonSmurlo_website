@@ -71,15 +71,15 @@ comments: True
   <div style="background-color: #f0eefc; padding: 25px; border-radius: 12px; margin-bottom: 25px;">
     <h2 style="color: #825ec6; font-weight: bold;">Certificates</h2>
     <ul>
-      <li>HTML/CSS Proficiency Certificate</li>
+      <li>Javascript Proficiency Certificate</li>
       <li>Responsive Web Design Certificate</li>
-      <li>Git & GitHub Collaboration Certificate</li>
+      <li>GitHub Collaboration Certificate</li>
     </ul>
   </div>
 
   <!-- Tokens -->
   <div style="background-color: #fff3e0; padding: 25px; border-radius: 12px; margin-bottom: 25px;">
-    <h2 style="color: #ff6f00; font-weight: bold;">Tokens (Unique Contributions)</h2>
+    <h2 style="color: #ff6f00; font-weight: bold;">Tokens/NFTs</h2>
     <ul>
       <li><strong>Visual Architect:</strong> for crafting a custom and polished layout for the profile page</li>
       <li><strong>Interactive Detail Designer:</strong> for embedding profile bio logic and image cropping into the UI</li>
@@ -111,3 +111,72 @@ comments: True
   </div>
 
 </section>
+
+
+<!-- Internship Relevance -->
+<div style="background-color: #e0f7fa; padding: 25px; border-radius: 12px; margin-bottom: 25px;">
+  <h2 style="color: #00796b; font-weight: bold;">Internship Relevance & Takeaways</h2>
+  <p>My work on ShotSpot demonstrates technical initiative, problem-solving, and user-focused design — all qualities I can bring to internships. Here’s how I plan to apply these skills in future roles:</p>
+  <ul>
+    <li><strong>Technical:</strong> Use my full-stack experience to contribute to real-world product development</li>
+    <li><strong>Teamwork:</strong> Collaborate effectively with cross-functional teams (designers, engineers, etc.)</li>
+    <li><strong>Communication:</strong> Translate technical ideas into user-friendly experiences</li>
+    <li><strong>Drive:</strong> Show growth mindset by learning fast and taking ownership of project parts</li>
+  </ul>
+</div>
+
+
+<!-- Skills for Internships -->
+<div style="background-color: #fce4ec; padding: 25px; border-radius: 12px; margin-bottom: 25px;">
+  <h2 style="color: #c2185b; font-weight: bold;">Skills I'm Bringing Into Internships</h2>
+  <ul>
+    <li><strong>Frontend fluency:</strong> Confident using HTML, CSS, Tailwind, and JavaScript to build polished interfaces</li>
+    <li><strong>Problem-solving mindset:</strong> Able to debug issues independently and research solutions</li>
+    <li><strong>Version control:</strong> Comfortable using Git/GitHub to collaborate on shared codebases</li>
+    <li><strong>User-first design:</strong> Prioritize simplicity, usability, and clarity in all design decisions</li>
+  </ul>
+</div>
+
+
+
+
+<!-- Application Value -->
+<div style="background-color: #ede7f6; padding: 25px; border-radius: 12px; margin-bottom: 25px;">
+  <h2 style="color: #5e35b1; font-weight: bold;">Why This Project Stands Out on Applications</h2>
+  <p>Unlike classroom-only work, ShotSpot is a real, functioning website that solves a niche problem. On applications, it proves I can:</p>
+  <ul>
+    <li>Go beyond templates and build original features from scratch</li>
+    <li>Balance visual design with backend functionality</li>
+    <li>Launch and maintain a user-focused product in a real-world setting</li>
+    <li>Collaborate in a team and use tools professionals rely on</li>
+  </ul>
+</div>
+
+
+
+
+<!-- Internship Interests -->
+<div style="background-color: #e0f2f1; padding: 25px; border-radius: 12px; margin-bottom: 25px;">
+  <h2 style="color: #00796b; font-weight: bold;">Types of Internships I'm Targeting</h2>
+  <p>I'm looking for internships where I can contribute to projects that matter and continue learning. Some areas that interest me:</p>
+  <ul>
+    <li>Startup product teams building interactive web apps</li>
+    <li>Finance roles needing data visualization or tooling</li>
+    <li>Tech internships that combine coding with UX/UI work</li>
+    <li>Research labs or nonprofits integrating simple web tools</li>
+  </ul>
+</div>
+
+
+
+
+<!-- Long-Term Vision -->
+<div style="background-color: #f3e5f5; padding: 25px; border-radius: 12px; margin-bottom: 25px;">
+  <h2 style="color: #8e24aa; font-weight: bold;">Long-Term Vision</h2>
+  <p>My ultimate goal is to merge tech and finance to create tools that make decision-making easier. Whether through investing dashboards, budgeting apps, or economic analysis tools, I plan to:</p>
+  <ul>
+    <li>Build accessible tools that empower people to understand data</li>
+    <li>Use my tech foundation to support business growth and innovation</li>
+    <li>Eventually lead product or strategy teams focused on tech-enabled finance</li>
+  </ul>
+</div>
