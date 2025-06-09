@@ -49,6 +49,54 @@ comments: True
     </ul>
   </div>
 
+
+
+
+<!-- Homework Certification -->
+<div style="background-color: #e8f5e9; padding: 25px; border-radius: 12px; margin-bottom: 25px;">
+  <h2 style="color: #43a047; font-weight: bold;">Homework Certification</h2>
+  <p>I completed <strong>all student-led lesson homework assignments</strong> in Jupyter Notebooks. These tasks deepened my understanding of both technical and ethical computing concepts. They also helped be to prepare for the AP exam.</p>
+  <ul>
+    <li><a href="https://github.com/BrandonSmurlo/BrandonSmurlo_website/commit/5856fa68df751de0b8d77513b3ee781ecf34cf0f" target="_blank" style="color: #2e7d32; text-decoration: underline;">Digital Divide Homework</a></li>
+    <li><a href="https://github.com/BrandonSmurlo/BrandonSmurlo_website/commit/1d149cabca4d0eba830b39bd6feed3737a169f48" target="_blank" style="color: #2e7d32; text-decoration: underline;">Binary Search Homework</a></li>
+    <li><a href="https://github.com/BrandonSmurlo/BrandonSmurlo_website/commit/e6162db156f3f1a82863c0692672ea32a5476979" target="_blank" style="color: #2e7d32; text-decoration: underline;">Logic Gates Homework</a></li>
+  </ul>
+  <img src="images/Screenshot 2025-06-09 at 9.19.55 AM.png" alt="Jupyter Notebooks Screenshot" style="max-width: 100%; border-radius: 8px; margin-top: 10px; border: 1px solid #ccc;">
+</div>
+
+
+
+<!-- Project Showcase -->
+<div style="background-color: #fff8e1; padding: 25px; border-radius: 12px; margin-bottom: 25px;">
+  <h2 style="color: #f9a825; font-weight: bold;">Project Showcase – N@TM</h2>
+  <p>On June 5, I showcased <strong>ShotSpot</strong> at the Night at the Museum (N@TM) event. It was a great opportunity to present the work I had built throughout the year and to reflect on how far both I and my classmates had come. I shared how ShotSpot, a collaborative social platform for photographers, was developed using skills I learned in web development and Open Coding Society. Engaging with peers and visitors at the event made the experience both insightful and rewarding.</p>
+  <img src="images/IMG_7796.JPG" alt="ShotSpot Presentation at N@TM" style="max-width: 100%; border-radius: 8px; margin-top: 10px; border: 1px solid #ccc;">
+</div>
+
+
+
+
+<!-- Project Stats & Contributions -->
+<div style="background-color: #e3f2fd; padding: 25px; border-radius: 12px; margin-bottom: 25px;">
+  <h2 style="color: #1976d2; font-weight: bold;">Project Stats</h2>
+  <p>My work on <strong>ShotSpot</strong> and through <strong>Open Coding Society</strong> is reflected in various GitHub contributions:</p>
+  <ul>
+    <li><strong>Pull Requests:</strong> Our team developed ShotSpot on a forked repo. Once our features were ready, we submitted a pull request to merge our version back into the Open Coding Society repository, following real-world collaboration workflows.</li>
+    <li><strong>Commits:</strong> I regularly pushed updates to implement new features and fix issues in both the frontend and backend of the project.</li>
+    <li><strong>Issues:</strong> I documented key planning and event tasks, such as this issue for the N@TM event: 
+      <a href="https://github.com/BrandonSmurlo/BrandonSmurlo_website/issues/10" target="_blank" style="color: #1565c0; text-decoration: underline;">N@TM GitHub Issue</a>
+    </li>
+  </ul>
+  <p>Here’s a snapshot of some of the GitHub issues I tracked during development:</p>
+  <img src="images/Screenshot 2025-06-09 at 9.32.55 AM.png" alt="GitHub Issues Screenshot" style="max-width: 100%; border-radius: 8px; margin-top: 10px; border: 1px solid #ccc;">
+
+  <p>Below is our group’s Kanban board for ShotSpot, showing different team members assigned to tasks throughout the project:</p>
+<img src="images/Screenshot 2025-06-09 at 9.39.42 AM.png" alt="ShotSpot Kanban Board" style="max-width: 100%; border-radius: 8px; margin-top: 10px; border: 1px solid #ccc;">
+</div>
+
+
+
+
   <!-- Resume -->
   <div style="background-color: #e7f9e7; padding: 25px; border-radius: 12px; margin-bottom: 25px;">
     <h2 style="color: #56a056; font-weight: bold;">Resume</h2>
