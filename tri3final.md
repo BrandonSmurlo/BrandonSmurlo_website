@@ -228,3 +228,7 @@ comments: True
     <li>Eventually lead product or strategy teams focused on tech-enabled finance</li>
   </ul>
 </div>
+
+
+
+**Self Grade: 0.9**
