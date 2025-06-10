@@ -231,4 +231,10 @@ comments: True
 
 
 
+<img src="images/Screenshot 2025-06-10 at 8.44.34 AM.png" alt="Screenshot 1" style="max-width: 100%; border-radius: 8px; margin-top: 10px; border: 1px solid #ccc;">
+
+<img src="images/Screenshot 2025-06-10 at 8.44.18 AM.png" alt="Screenshot 2" style="max-width: 100%; border-radius: 8px; margin-top: 10px; border: 1px solid #ccc;">
+
+
+
 **Self Grade: 0.9**
